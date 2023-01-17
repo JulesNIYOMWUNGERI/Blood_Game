@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+
+/* .rotate-next{
+   -webkit-transition: -webkit-transform 1s;
+}
+
+
+.rotate-next:hover{
+    -webkit-transform: rotateY(120deg);
+} */
+
+
+
+
+.bgContainer{
+    width: 600px;
+    height: 900px;
+    background:rgb(0,0,0,0.7)url(./assets/images/BG\ 5.png);
+    background-blend-mode: darken;
+}
+
+.bgContainer2{
+    background:rgb(0,0,0,0.7)url(./assets/images/BG\ 4.png);
+    background-blend-mode: darken;
+}
+
+.WraperContainer{
+    background:url(./assets/images/Background\ Image.png);
+}
+
+.middleContainer{
+    background:url(./assets/images/003\ \(1\).png);
+}
+
+.middleContainer{
+    background:url(./assets/images/001\ \(1\).png);
+}
+
+.lastContainer{
+    background:url(./assets/images/002\ \(1\).png);
+}
+
+.table{
+    box-shadow: 2px 2px 12px rgba(255, 0, 0, 0.453), -1px -1px 8px rgba(255, 0, 0, 0.453);
+}
+
+th,td{
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.299),rgba(0, 0, 0, 0.096));
+    cursor:pointer;
+    
+}
+
+.footer{
+    background: linear-gradient(to bottom right, #5b0b0bfc, #bd0404);
+}
