@@ -215,38 +215,38 @@ const Home = () => {
           <h1 className='flex justify-center items-center'>
             <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/>
           </h1>
-          <div className='flex flex-row flex-wrap justify-center gap-[20px] w-full'>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[120px] w-full' src={GhostFace} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+          <div className='flex flex-row flex-wrap justify-center items-center gap-[0px] w-full'>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={GhostFace} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[2px] h-[150px] w-full' src={freddy} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={freddy} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[130px] w-full' src={Pennywise} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center '>
+              <img className='image' src={Pennywise} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[130px] w-full' src={PinHead} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={PinHead} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[130px] w-full' src={zombie} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={zombie} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[120px] w-full' src={mike} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={mike} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[170px] w-full' src={jason} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] md:mb-[72px] mb-[28px] flex flex-col justify-center items-center'>
+              <img className='image7' src={jason} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
-            <div className='relative w-[130px]'>
-              <img className='absolute bottom-[5px] h-[130px] w-full' src={Chucky} alt=''/>
-              <img className='w-[120px]' src={Group13333} alt=''/>
+            <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
+              <img className='image' src={Chucky} alt=''/>
+              <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
           </div>
           <div className='flex flex-row justify-end px-[100px] gap-[20px]'>
