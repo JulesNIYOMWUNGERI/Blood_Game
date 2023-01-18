@@ -18,6 +18,7 @@ import stats from '../assets/images/Group 233955.png'
 import chart from '../assets/images/Chart.png'
 import WatchLogo from '../assets/logos/Watch Trailer.png'
 import whitePaper from '../assets/logos/White Paper Button.png'
+import Group13333 from '../assets/images/Group (2).png'
 import footer from '../assets/logos/footer.PNG'
 
 import {RiFacebookFill} from 'react-icons/ri'
@@ -66,8 +67,9 @@ const Token = () => {
             </div>
         </div>
         <div className='flex flex-row flex-wrap justify-center items-center w-full gap-[5px] bg-black'>
-            <div className='md:w-[43%] w-[95%]'>
-                <img src={zombie} alt=''/>
+            <div className='md:w-[43%] w-[95%] relative flex flex-col justify-center items-center mt-[70px]'>
+                <img className='z-[10000] absolute bottom-3' src={zombie} alt=''/>
+                <img className='' src={Group13333} alt=''/>
             </div>
             <div className='md:w-[35%] w-[95%] flex flex-col'>
                 <h1>

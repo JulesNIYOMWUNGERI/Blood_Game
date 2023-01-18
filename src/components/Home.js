@@ -11,6 +11,7 @@ import zombie from '../assets/Gifs/Leather-face_pose3 1.gif'
 import Logo1111 from '../assets/logos/Game Trailer_ (1).png'
 import AboutLogo from '../assets/logos/About.png'
 import Pennywise from '../assets/Gifs/Pennywise_pose2 1.gif'
+import pennywise3 from '../assets/Gifs/Pennywise_pose1 2.gif'
 import Pennywise2 from '../assets/images/Pennywise.png'
 import WatchLogo from '../assets/logos/Watch Trailer.png'
 import rectangle from '../assets/images/001.png'
@@ -144,11 +145,11 @@ const Home = () => {
             <div className='flex flex-wrap flex-row justify-center items-center absolute top-4 w-full'>
                 <div className='lg:w-[45%] md:w-[600px] sm:w-screen relative flex justify-center items-center'>
                   <img src={rectangle5} alt=''/>
-                  <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute top-[120px] flex justify-center items-center'><BsPlayFill size={20}/></div>
+                  <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute md:top-[120px] top[100px] flex justify-center items-center'><BsPlayFill size={20}/></div>
                 </div>
                 <div className='lg:w-[45%] md:w-[600px] sm:w-screen relative flex justify-center items-center'>
                   <img src={rectangle26} alt=''/>
-                  <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute top-[120px] flex justify-center items-center'><BsPlayFill size={20}/></div>
+                  <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute md:top-[120px] top[100px] flex justify-center items-center'><BsPlayFill size={20}/></div>
                 </div>
             </div>
             <img className='absolute left-0 top-[50px] w-[200px] hidden lg:block' src={Group1} alt=''/>
@@ -225,7 +226,7 @@ const Home = () => {
               <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
             <div className='relative w-[155px] flex flex-col justify-center items-center '>
-              <img className='image' src={Pennywise} alt=''/>
+              <img className='image' src={pennywise3} alt=''/>
               <img className='md:w-[120px] w-[40%] absolute bottom-0' src={Group13333} alt=''/>
             </div>
             <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>

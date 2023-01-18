@@ -11,6 +11,10 @@ const Navbar = () => {
 
   const [show, setShow] = useState(false)
 
+  const handleHide = () => {
+    setShow(false);
+  }
+
     return (
       <div className='w-full h-auto flex justify-center  font-sans absolute top-0 z-[1000000000]'>
         <div className='bg-[#000000cb] w-full h-[50px] flex flex-row justify-between items-center px-6 py-7'>
@@ -43,11 +47,11 @@ const Navbar = () => {
                       <IoMdClose size={25} onClick={()=>{setShow(false)}}/>
                     </div>
                     <ul className='text-white flex flex-col gap-5'>
-                        <li className='cursor-pointer border-b-[2px] border-b-gray-400'>Home</li>
-                        <li className='cursor-pointer border-b-[2px] border-b-gray-400'>About</li>
-                        <li className='cursor-pointer border-b-[2px] border-b-gray-400'>Token</li>
-                        <li className='cursor-pointer border-b-[2px] border-b-gray-400'>Character</li>
-                        <li className='cursor-pointer border-b-[2px] border-b-gray-400'>Team</li>
+                        <a href='/#home'><li onClick={handleHide} className='cursor-pointer hover:bg-[#ffffff1a] border-b-[2px] border-b-gray-400'>Home</li></a>
+                        <a href='/#about'><li onClick={handleHide} className='cursor-pointer hover:bg-[#ffffff1a] border-b-[2px] border-b-gray-400'>About</li></a>
+                        <a href='/#token'><li onClick={handleHide} className='cursor-pointer hover:bg-[#ffffff1a] border-b-[2px] border-b-gray-400'>Token</li></a>
+                        <a href='/#character'><li onClick={handleHide} className='cursor-pointer hover:bg-[#ffffff1a] border-b-[2px] border-b-gray-400'>Character</li></a>
+                        <a href='/#teams'><li onClick={handleHide} className='cursor-pointer hover:bg-[#ffffff1a] border-b-[2px] border-b-gray-400'>Team</li></a>
                     </ul>
                  </div>
          }
