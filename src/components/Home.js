@@ -321,7 +321,7 @@ const Home = () => {
                        <li className='cursor-pointer'>. Alpha GamePlay Trailer</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mb-[-100px]'>
+                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mb-[50px] md:mb-[-100px]'>
                      <img className='z-[100000] h-[70px]' src={Text3} alt=''/>
                      <img src={line} alt=''/>
                      <ul className='text-white text-[13px] z-[100000]'>
@@ -331,7 +331,7 @@ const Home = () => {
                        <li className='cursor-pointer'>. Synthesis<br/>(Burning mechanism)</li>
                      </ul>
                   </div>
-                <div className='z-[1000000] flex flex-row gap-0 h-[30px] my-[40px] md:ml-[120px]'>
+                <div className='z-[1000000] md:flex flex-row gap-0 h-[30px] my-[40px] md:ml-[120px] hidden '>
                     <div className='text-red-900 flex justify-center items-center'><img src={icon} alt='' />------------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
@@ -350,7 +350,7 @@ const Home = () => {
                        <li className='cursor-pointer'>. Pre-website</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mt-[-100px]'>
+                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mt-[-90px] md:mt-[-100px]'>
                      <img className='z-[100000] h-[70px]' src={Text5} alt=''/>
                      <img src={line} alt=''/>
                      <ul className='text-white text-[13px] z-[100000]'>

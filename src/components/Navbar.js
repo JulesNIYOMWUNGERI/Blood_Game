@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logos/Logo .png'
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineMenu,AiOutlineTwitter} from 'react-icons/ai'
+import {FaDiscord} from 'react-icons/fa'
 import {IoMdClose} from 'react-icons/io'
 import whitePaper from '../assets/logos/Whitepaper.png'
 import vector from '../assets/logos/Vector.png'
@@ -30,8 +31,12 @@ const Navbar = () => {
                   <a href='/#teams'><li className='cursor-pointer hover:text-red-500 hover:ease-in ease-out duration-[0.40s]'>Team</li></a>
               </ul>
           </div>
-          <div className='text-white cursor-pointer'>
-              <button className='bg-red-600 px-4 py-[4px] flex justify-center items-center rounded-[20px]'>
+          <div className='text-white flex flex-row md:gap-[40px] gap-2'>
+              <div className='flex justify-center items-center md:gap-5 gap-3'>
+                <FaDiscord className='cursor-pointer'/>
+                <AiOutlineTwitter className='cursor-pointer'/>
+              </div>
+              <button className='bg-red-600 px-4 py-[4px] flex justify-center items-center rounded-[20px] cursor-pointer'>
                 <img className='w-[30px]' src={vector} alt=''/>
                 <img className='w-[90px]' src={whitePaper} alt=''/>
               </button>

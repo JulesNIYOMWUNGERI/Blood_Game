@@ -43,7 +43,7 @@ const Token = () => {
             </div>
         </div>
         <div className='bg-black w-full h-auto flex flex-col justify-center items-center'>
-            <div className='md:w-[70%] w-[95%]  absolute top-[650px]'>
+            <div className='md:w-[70%] w-[95%]  absolute md:top-[650px] top-[750px]'>
                 <img src={status} alt=''/>
             </div>
             <img className='absolute left-0 top-[700px] w-[200px]' src={newDash} alt=''/>
@@ -66,8 +66,8 @@ const Token = () => {
               </div>
             </div>
         </div>
-        <div className='flex flex-row flex-wrap justify-center items-center w-full gap-[5px] bg-black'>
-            <div className='md:w-[43%] w-[95%] relative flex flex-col justify-center items-center mt-[70px]'>
+        <div className='flex flex-row flex-wrap items-center w-full bg-black'>
+            <div className='md:w-[40%] w-[95%] relative flex flex-col justify-center items-center mt-[70px] md:ml-[60px]'>
                 <img className='z-[10000] absolute bottom-3' src={zombie} alt=''/>
                 <img className='' src={Group13333} alt=''/>
             </div>
