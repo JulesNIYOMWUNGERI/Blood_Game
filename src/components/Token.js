@@ -14,9 +14,7 @@ import meterTitle from '../assets/logos/heading (1).png'
 import pig from '../assets/images/Group 234028.png'
 import pigHeader from '../assets/logos/Heading (2).png'
 import statsTile from '../assets/logos/Heading (3).png'
-import stats from '../assets/images/Group 233955.png'
-import chart from '../assets/images/Chart.png'
-import WatchLogo from '../assets/logos/Watch Trailer.png'
+import pieChart from '../assets/images/Rectangle 94 (2).png'
 import whitePaper from '../assets/logos/White Paper Button.png'
 import Group13333 from '../assets/images/Group (2).png'
 import footer from '../assets/logos/footer.PNG'
@@ -125,7 +123,7 @@ const Token = () => {
            <div className='lastContainer md:w-[50%] w-[95%] md:h-[700px] h-[1000px] md:mr-[120px]'></div>
            <div className='flex flex-col justify-center items-center w-full absolute'>
              <img className='w-[300px]' src={statsTile} alt=''/>
-             <img className='w-[500px]' src={stats} alt=''/>
+             <img className='w-[500px]' src={pieChart} alt=''/>
            </div>
            <div className='flex flex-col justify-center items-center w-full mb-[80px]'>
             <div className='border-[1px] border-red-700 rounded-[10px] table'>
@@ -142,109 +140,96 @@ const Token = () => {
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Speed</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>4.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>7.50%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>SEED</td>
+                    <td className='md:py-[12px] md:px-[25px]'>40,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>4%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>7.5%</td>
                     <td className='md:py-[12px] md:px-[25px]'>8</td>
                     <td className='md:py-[12px] md:px-[25px]'>12</td>
 
                 </tr>
                 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Private-R1</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>3.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>10.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>PRIVATE-R1</td>
+                    <td className='md:py-[12px] md:px-[25px]'>30,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>3%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>10%</td>
                     <td className='md:py-[12px] md:px-[25px]'>5</td>
                     <td className='md:py-[12px] md:px-[25px]'>8</td>
 
                 </tr>
                 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Private-R2</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>6.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>10.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>PRIVATE-R2</td>
+                    <td className='md:py-[12px] md:px-[25px]'>60,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>6%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>10%</td>
                     <td className='md:py-[12px] md:px-[25px]'>4</td>
                     <td className='md:py-[12px] md:px-[25px]'>6</td>
 
                 </tr>
                 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Public</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>2.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>15.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>PUBLIC</td>
+                    <td className='md:py-[12px] md:px-[25px]'>70,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>7%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>15%</td>
                     <td className='md:py-[12px] md:px-[25px]'>0</td>
                     <td className='md:py-[12px] md:px-[25px]'>3</td>
 
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Teams&<br/>Development</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>17.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>0.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>TEAM&<br/>DEVELOPMENT</td>
+                    <td className='md:py-[12px] md:px-[25px]'>170,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>17%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>0%</td>
                     <td className='md:py-[12px] md:px-[25px]'>8</td>
                     <td className='md:py-[12px] md:px-[25px]'>24</td>
 
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Advisor</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>5.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>0.00%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>8</td>
-                    <td className='md:py-[12px] md:px-[25px]'>24</td>
+                    <td className='md:py-[12px] md:px-[25px]'>STAKING</td>
+                    <td className='md:py-[12px] md:px-[25px]'>100,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>10%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>0%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>0</td>
+                    <td className='md:py-[12px] md:px-[25px]'>12</td>
 
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Bloody Rewards</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>30.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>1.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>BLOODY REWARDS</td>
+                    <td className='md:py-[12px] md:px-[25px]'>300,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>30%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>1%</td>
                     <td className='md:py-[12px] md:px-[25px]'>0</td>
                     <td className='md:py-[12px] md:px-[25px]'>72</td>
 
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Staking</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>10.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>0.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>TOURNAMENT<br/>TREASURY</td>
+                    <td className='md:py-[12px] md:px-[25px]'>180,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>18%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>0%</td>
                     <td className='md:py-[12px] md:px-[25px]'>0</td>
                     <td className='md:py-[12px] md:px-[25px]'>12</td>
 
                 </tr>
 
                 <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Treasury</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>18.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>0.00%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>0</td>
-                    <td className='md:py-[12px] md:px-[25px]'>12</td>
-
-                </tr>
-
-                <tr>
-                    <td className='md:py-[12px] md:px-[25px]'>Liquidity</td>
-                    <td className='md:py-[12px] md:px-[25px]'>37,500,000</td>
-                    <td className='md:py-[12px] md:px-[25px]'>5.0%</td>
-                    <td className='md:py-[12px] md:px-[25px]'>40.00%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>LIQUIDITY</td>
+                    <td className='md:py-[12px] md:px-[25px]'>50,000,000</td>
+                    <td className='md:py-[12px] md:px-[25px]'>5%</td>
+                    <td className='md:py-[12px] md:px-[25px]'>40%</td>
                     <td className='md:py-[12px] md:px-[25px]'>0</td>
                     <td className='md:py-[12px] md:px-[25px]'>3</td>
 
                 </tr>
             </table>
             </div>
-           </div>
-           <div className='w-full flex justify-center items-center mb-[100px]'>
-             <img src={chart} alt=''/>
            </div>
         </div>
         <div>
