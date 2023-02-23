@@ -49,7 +49,7 @@ const Token = () => {
               <div className='md:w-[45%] w-[95%] flex flex-col md:gap-[30px] gap-[80px]'>
                   <h1 className='relative flex flex-row'>
                     <img className='md:w-[200px] w-[100px]' src={bloodDash} alt=''/>
-                    <img className='md:w-[450px] w-[300px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/>
+                    <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/>
                   </h1>
                   <p className='md:ml-[70px] ml-[40px] text-white'>
                     Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure.

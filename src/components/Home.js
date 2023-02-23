@@ -82,15 +82,20 @@ const Home = () => {
           <div className='bg-transparent'>
             <img src={AboutLogo} alt=''/>
           </div>
-          <div className='pl-[55px]'>
-            <p>Duis sit id labore est aliquip ut mollit ullamco deserunt pariatur. 
-               Ipsum aliquip reprehenderit fugiat ad quis. Eu consequat fugiat ex pariatur cillum. 
-               Minim nulla minim in anim nostrud cupidatat nostrud officia aliquip.
-               Nisi laboris reprehenderit qui veniam ad ex eu dolor tempor consequat dolore proident. 
-               Officia ad exercitation incididunt non id ullamco esse non non sint sunt.
+          <div className='pl-[55px] flex flex-col gap-5'>
+            <p>
+              Welcome to the bloodiest Player Versus Player death-match in Defi! BloodBath is a DAO driven ecosystem
+              built from the ground up. Pick your favorite seiral killer and slash your way to victory.
             </p>
+            <h1>
+              Key Features:<br/>
+              - &emsp;Bank your $BLOOD with high yield staking<br/>
+              - &emsp;"Winner-take-all"death matches<br/>
+              - &emsp;Hosted tournaments<br/>
+              - &emsp;SLAY TO EARN!<br/>
+            </h1>
           </div>
-          <div className='flex justify-center items-center  mt-[50px]'>
+          <div className='flex justify-center items-center'>
             <img className='h-[400px] w-[100%]' src={Pennywise} alt=''/>
           </div>
         </div>
@@ -105,19 +110,16 @@ const Home = () => {
            </div>
            <div className='flex flex-col'>
             <div className='flex justify-center md:justify-start'>
-              <img className='h-[80px]' src={Logo1111} alt=''/>
+              <h1 className='text-[50px]'>Sneak Preview</h1>
             </div>
             <div className='text-center md:text-start'>
-              <p>Lorem Ipsum et dolore minim pariatur.
-                Est quis adipisicing mollit deserunt.
-                Est quis adipisicing mollit deserunt.
-                Est quis adipisicing mollit deserunt. 
-                Aute pariatur aliquip aliquip occaecat 
-                ipsum culpa minim fugiat cillum elit dolor velit.</p>
+              <p>
+                Take a look at the carnage of the bloodBath Arena. Let the blood flow!
+              </p>
             </div>
            </div>
         </div>
-        <div className='lg:w-[60%] md:w-[60%] sm:w-[100%] w-[100%] py-[20px] px-[40px] flex flex-wrap flex-row justify-center gap-[40px]'>
+        <div className='lg:w-[60%] md:w-[60%] sm:w-[100%] w-[100%] pb-[10px] px-[40px] flex flex-wrap flex-row justify-center gap-[40px]'>
           <button className='border-[2px] border-gray-500 py-[10px] px-[20px] rounded-[10px]'>
             <img className='w-[100px]' src={WatchLogo} alt=''/>
           </button>
@@ -159,27 +161,35 @@ const Home = () => {
                  <img src={HowToPlay} alt=''/>
                </h1>
                <p className='text-center'>
-                 Irure et tempor fugiat irure velit officia. 
-                 veniam aute ad amet sint ut non magna aliquip ut velit occaecat eiusmod sit. 
-                 Proident et aliquip aliqua labore deserunt.
+                 Join the BloodBath community! Connect your wallet, buy your $BLOOD tokens.
+                 find a challenger, set the wager, and let the blood blow!
                </p>
             </div>
             <div className='flex flex-wrap flex-row justify-center items-center gap-10'>
                <div className='lg:w-[450px] md:w-[450px] sm:w-[90%] w-[90%]'>
                  <img  src={image2} alt=''/>
                </div>
-               <div className='flex flex-col gap-2 lg:w-[450px] md:w-[450px] sm:w-[90%] w-[90%] h-[300px] md:h-[250px]'>
+               <div className='flex flex-col gap-5 justify-center lg:w-[450px] md:w-[450px] sm:w-[90%] w-[90%] h-[300px] md:h-[250px]'>
                  <div>
-                   <h1><img className='w-[150px]' src={Download} alt=''/></h1>
-                   <p>veniam aute ad amet sint ut non magna aliquip ut velit occaecat eiusmod sit.</p>
+                   <h1>
+                    {/* <img className='w-[150px]' src={Download} alt=''/> */}
+                    <strong>1.Download</strong>
+                  </h1>
+                   <p>iOS and Windows compatible.</p>
                  </div>
                  <div>
-                   <h1><img className='w-[300px]' src={SelectAvatar} alt=''/> </h1>
-                   <p>veniam aute ad amet sint ut non magna aliquip ut velit occaecat eiusmod sit.</p>
+                   <h1>
+                    {/* <img className='w-[300px]' src={SelectAvatar} alt=''/> */}
+                    <strong>2.Select seiral killer & Arena</strong>
+                  </h1>
+                   <p>Choose your villain and set your wager.</p>
                  </div>
                  <div>
-                   <h1><img className='w-[100px]' src={Play} alt=''/></h1>
-                   <p>veniam aute ad amet sint ut non magna aliquip ut velit occaecat eiusmod sit.</p>
+                   <h1>
+                    {/* <img className='w-[100px]' src={Play} alt=''/> */}
+                    <strong>3.Play</strong>
+                   </h1>
+                   <p>Go head-to-head in bloody combat in a winner take all<br/> battle.</p>
                  </div>
                </div>
             </div>
@@ -196,11 +206,12 @@ const Home = () => {
                    <h1 className='ml-1'>
                        <img className='h-[50px]' src={Token} alt=''/>
                    </h1>
-                   <p className='ml-4'>
-                       Laborum ipsum est ad sint qui nostrud amet commodo ullamcosint qui. 
-                       Laborum ipsum est ad sint qui nostrud amet commodo .
-                       Laborum ipsum est ad sint qui nostrud.
-                   </p>
+                   <ul className='ml-4 list-disc'>
+                       <li>Bank your $BLOOD with staking</li>
+                       <li>Slay to Earn</li>
+                       <li>BLOODY DAO</li>
+                       <li>Tokenomics</li>
+                   </ul>
                    <div className='cursor-pointer w-[200px] mt-[10px]'>
                     <Link to='/token'><img src={btn} alt=''/></Link>
                    </div>
@@ -213,9 +224,14 @@ const Home = () => {
     </div>
     <div className='bg-black' id='character'>
        <div className='flex flex-col gap-[30px] py-[50px]'>
-          <h1 className='flex justify-center items-center'>
+          <div className='flex flex-col justify-center items-center'>
             <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/>
-          </h1>
+            <p className='text-[18px] text-white'>
+              Start with your favorite Serial Killers as you stab and<br/>
+              slash your way to victory. Challengethe computer to <br/>
+              unlock new levels and new Killers.
+            </p>
+          </div>
           <div className='flex flex-row flex-wrap justify-center items-center gap-[0px] w-full'>
             <div className='relative w-[155px] flex flex-col justify-center items-center overflow-x-hidden'>
               <img className='image' src={GhostFace} alt=''/>
@@ -302,74 +318,90 @@ const Home = () => {
               <img className='w-[400px] h-[170px] z-[100000]' src={LoadMap} alt=''/>
             </h1>
             <div className='z-[1000] relative'>
-              <div className='flex flex-row flex-wrap justify-center gap-[100px] py-5'>
-              <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mb-[-100px] md:ml-[100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text1} alt=''/>
-                     <img src={line} alt=''/>
+              <div className='flex flex-row flex-wrap justify-center gap-[200px] py-5'>
+                  <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px] md:ml-[1px]'>
+                     {/* <img className='z-[100000] h-[70px]' src={Text1} alt=''/> */}
+                     {/* <img src={line} alt=''/> */}
+                     <h1 className='z-[100000] text-white w-full'>Q2 2022</h1>
                      <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Team's Reveal</li>
-                       <li className='cursor-pointer'>. Full-Website</li>
-                       <li className='cursor-pointer'>. Update Development</li>
-                       <li className='cursor-pointer'>. Progress</li>
-                       <li className='cursor-pointer'>. Seed & Private Sale</li>
+                       <li className='cursor-pointer'>Game concept Establishment</li>
+                       <li className='cursor-pointer'>Pitch Deck</li>
+                       <li className='cursor-pointer'>Detailed Documentation</li>
+                       <li className='cursor-pointer'>Game Design Storyboard</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mb-[-100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text2} alt=''/>
-                     <img src={line} alt=''/>
+                  <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px]'>
+                     {/* <img className='z-[100000] h-[70px]' src={Text2} alt=''/> */}
+                     {/* <img src={line} alt=''/> */}
+                     <h1 className='z-[100000] text-white w-full'>Q3 2022</h1>
                      <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Alpha GamePlay Trailer</li>
+                       <li className='cursor-pointer'>Game Development outlined</li>
+                       <li className='cursor-pointer'>Ecosystem Design</li>
+                       <li className='cursor-pointer'>Character Metamorphosis</li>
+                       <li className='cursor-pointer'>Private Seed Round</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mb-[50px] md:mb-[-100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text3} alt=''/>
-                     <img src={line} alt=''/>
+                  <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[50px] md:mb-[-100px]'>
+                     {/* <img className='z-[100000] h-[70px]' src={Text3} alt=''/> */}
+                     {/* <img src={line} alt=''/> */}
+                     <h1 className='z-[100000] text-white w-full'>Q4 2022</h1>
                      <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Full Game Trailer</li>
-                       <li className='cursor-pointer'>. Full Game Launch</li>
-                       <li className='cursor-pointer'>. Building Challenge<br/>(Burning mechanism)</li>
-                       <li className='cursor-pointer'>. Synthesis<br/>(Burning mechanism)</li>
+                       <li className='cursor-pointer'>Full game production (Beta)</li>
+                       <li className='cursor-pointer'>Team Expansion. 8 additional IT and marketing specialists</li>
+                       <li className='cursor-pointer'>OG character reveal for base levels</li>
                      </ul>
                   </div>
-                <div className='z-[1000000] md:flex flex-row gap-0 h-[30px] my-[40px] md:ml-[120px] hidden '>
+                {/* <div className='z-[1000000] md:flex flex-row gap-0 h-[30px] my-[40px] md:ml-[120px] hidden '>
                     <div className='text-red-900 flex justify-center items-center'><img src={icon} alt='' />------------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
                     <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' /></div>
-                </div>
-                <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mt-[-100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text4} alt=''/>
-                     <img src={line} alt=''/>
+                </div> */}
+                <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-100px]'>
+                     {/* <img className='z-[100000] h-[70px]' src={Text4} alt=''/> */}
+                     {/* <img src={line} alt=''/> */}
+                     <h1 className='z-[100000] text-white w-full'>Q1 2023</h1>
                      <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Game Story</li>
-                       <li className='cursor-pointer'>. Game Concept Teaser</li>
-                       <li className='cursor-pointer'>. Whitepaper</li>
-                       <li className='cursor-pointer'>. Community lounch</li>
-                       <li className='cursor-pointer'>. Pre-website</li>
+                       <li className='cursor-pointer'>Website Development</li>
+                       <li className='cursor-pointer'>On-chain migration</li>
+                       <li className='cursor-pointer'>Smart contract development</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mt-[-90px] md:mt-[-100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text5} alt=''/>
-                     <img src={line} alt=''/>
+                  <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-90px] md:mt-[-100px]'>
+                     {/* <img className='z-[100000] h-[70px]' src={Text5} alt=''/> */}
+                     {/* <img src={line} alt=''/> */}
+                     <h1 className='z-[100000] text-white w-full'>Q2 2023</h1>
                      <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Team's Reveal</li>
-                       <li className='cursor-pointer'>. Full-Website</li>
-                       <li className='cursor-pointer'>. Update Development</li>
-                       <li className='cursor-pointer'>. Progress</li>
-                       <li className='cursor-pointer'>. Seed & Private Sale</li>
+                       <li className='cursor-pointer'>Public Round GameFi.org & Seedify Launchpad</li>
+                       <li className='cursor-pointer'>Internal Beta Launch to Public</li>
+                       <li className='cursor-pointer'>User Dashboard Release</li>
+                       <li className='cursor-pointer'>$BLOOD Token Launch Party</li>
                      </ul>
                   </div>
-                  <div className='flex flex-row gap-[30px] justify-center items-center  z-[100000] mt-[-100px] md:mr-[100px]'>
-                     <img className='z-[100000] h-[70px]' src={Text6} alt=''/>
-                     <img src={line} alt=''/>
-                     <ul className='text-white text-[13px] z-[100000]'>
-                       <li className='cursor-pointer'>. Alpha Version Launch</li>
-                       <li className='cursor-pointer'>. Public Sale</li>
-                       <li className='cursor-pointer'>. SEVM Staking (Defi)</li>
-                       <li className='cursor-pointer'>. Sacred Beast (Defi)</li>
-                     </ul>
+                  <div className='flex flex-col gap-[10px] justify-center items-center  z-[100000] mt-[-100px] md:mr-[100px]'>
+                    <div>
+                       {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
+                       {/* <img src={line} alt=''/> */}
+                       <h1 className='z-[100000] text-white w-full'>Q3 2023</h1>
+                       <ul className='text-white text-[13px] z-[100000]'>
+                         <li className='cursor-pointer'>Alpha Launch to Public</li>
+                         <li className='cursor-pointer'>Slay-to-Earn Program Launch</li>
+                         <li className='cursor-pointer'>Battle Arena Dashboard Live</li>
+                         <li className='cursor-pointer'>Social Media Growth Competition</li>
+                       </ul>
+                    </div>
+                    <div>
+                       {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
+                       {/* <img src={line} alt=''/> */}
+                        <h1 className='z-[100000] text-white w-full'>Q4 2023</h1>
+                        <ul className='text-white text-[13px] z-[100000]'>
+                           <li className='cursor-pointer'>Grand Opening $100k Tournament</li>
+                           <li className='cursor-pointer'>PVP Real Time challenging</li>
+                           <li className='cursor-pointer'>player Avatar Integration</li>
+                         </ul>
+                    </div>
                   </div>
               </div>
               <div className='bgContainer absolute top-0 lg:right-5 right-0'></div>
@@ -416,29 +448,29 @@ const Home = () => {
             </h1>
             <form className='flex flex-col gap-[10px] text-white'>
               <div className='flex flex-row border-b justify-center items-center'>
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>When is PolyLand Launching?</div>
+                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>When is BloodBath launching?</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
               <div className='flex flex-row border-b justify-center items-center'>  
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Can I Play for Free?</div>
+                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Can I play BloodBath for free?</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
               <div className='flex flex-row border-b justify-center items-center'>  
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Where Can I Play PolyLand?</div>
+                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Where can I buy $BLOOD??</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
               <div className='flex flex-row border-b justify-center items-center'>  
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>What is the biggest Reward?</div>
+                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>How do tournments work?</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
-              <div className='flex flex-row border-b justify-center items-center'>  
+              {/* <div className='flex flex-row border-b justify-center items-center'>  
                 <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Where Can I buy ZION?</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
               <div className='flex flex-row border-b justify-center items-center'>  
                 <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Why Polygan?</div>
                 <AiOutlineDown className='cursor-pointer'/>
-              </div>
+              </div> */}
             </form>
           </div>
           <div className='flex justify-end h-[600px] pt-[290px]'>
@@ -447,7 +479,7 @@ const Home = () => {
         </div>
        </div>
     </div>
-        </div     >
+        </div>
         
     )
 }
