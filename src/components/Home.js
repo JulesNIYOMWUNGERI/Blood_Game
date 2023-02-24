@@ -442,7 +442,7 @@ const Home = () => {
           <div className='flex justify-start mb-[200px]'>
             <img className='w-[400px] h-[300px]' src={freddy} alt=''/>
           </div>
-          <div className='flex flex-col gap-5 justify-center items-center md:w-[550px] w-screen'>
+          <div className='flex flex-col gap-5 justify-center items-center md:w-[530px] w-screen'>
             <h1 className='w-[350px]'>
               <img src={Logo2} alt=''/>
             </h1>
@@ -474,7 +474,7 @@ const Home = () => {
             </form>
           </div>
           <div className='flex justify-end h-[600px] pt-[290px]'>
-            <img className='w-[300px] h-[300px]' src={Chucky} alt=''/>
+            <img className='w-[320px] h-[280px]' src={Chucky} alt=''/>
           </div>
         </div>
        </div>
