@@ -8,20 +8,15 @@ import PinHead from '../assets/Gifs/Pinhead_pose1 2.gif'
 import mike from '../assets/Gifs/mike-myers_pose1 2.gif'
 import Chucky from '../assets/Gifs/Chucky_Pose3 3.gif'
 import zombie from '../assets/Gifs/Leather-face_pose3 1.gif'
-import Logo1111 from '../assets/logos/Game Trailer_ (1).png'
 import AboutLogo from '../assets/logos/About.png'
 import Pennywise from '../assets/Gifs/Pennywise_pose2 1.gif'
 import pennywise3 from '../assets/Gifs/Pennywise_pose1 2.gif'
 import Pennywise2 from '../assets/images/Pennywise.png'
-import WatchLogo from '../assets/logos/Watch Trailer.png'
 import rectangle from '../assets/images/001.png'
 import rectangle5 from '../assets/images/Rectangle 5 (1).png'
 import rectangle26 from '../assets/images/Rectangle 26.png'
 import HowToPlay from '../assets/logos/how to play.png'
 import image2 from '../assets/images/image.png'
-import Download from '../assets/logos/Download.png'
-import SelectAvatar from '../assets/logos/2. Select Avatar & Arena.png'
-import Play from '../assets/logos/3. Play.png'
 import Group1 from '../assets/images/Group (1).png'
 import GhostFace from '../assets/Gifs/Ghostface_Gif3 1.gif'
 import {AiFillYoutube,AiOutlineInstagram,AiOutlineTwitter,AiOutlineDown} from 'react-icons/ai'
@@ -31,17 +26,8 @@ import {BsPlayFill} from 'react-icons/bs'
 
 import image2222 from '../assets/images/002.png'
 import jason from '../assets/Gifs/Jason_pose2 2.gif'
-import btn from '../assets/logos/button (1).png'
 import Token from '../assets/images/$blood TOKEN_ (2).png'
 
-import Text1 from '../assets/logos/Q 2 2023.png'
-import Text2 from '../assets/logos/Q 4 2023.png'
-import Text3 from '../assets/logos/Q 2 2024.png'
-import Text4 from '../assets/logos/Q 1 2023.png'
-import Text5 from '../assets/logos/Q 3 2023.png'
-import Text6 from '../assets/logos/Q 1 2024.png'
-
-import icon from '../assets/logos/Group 234014.png'
 import OurTeam from '../assets/logos/Our Team.png'
 import group1 from '../assets/images/Group 233962.png'
 import group2 from '../assets/images/Group 233963.png'
@@ -49,7 +35,6 @@ import group3 from '../assets/images/Group 233964.png'
 import group4 from '../assets/images/Group 233965.png'
 import group5 from '../assets/images/Group 233966.png'
 import Logo2 from '../assets/logos/Group 233960.png'
-import line from '../assets/logos/Line 155.png'
 
 import Logo3333 from '../assets/logos/Game Characters.png'
 import Group13333 from '../assets/images/Group (2).png'
@@ -61,6 +46,7 @@ import image33333 from '../assets/images/image_2022_09_28T02_49_10_084Z.png'
 import image43333 from '../assets/images/image_2022_09_28T02_48_11_965Z.png'
 import image53333 from '../assets/images/image_2022_09_28T02_47_35_309Z.png'
 import { Link } from 'react-router-dom';
+import vector from '../assets/logos/Vector.png'
 
 
 const Home = () => {
@@ -85,7 +71,7 @@ const Home = () => {
           <div className='pl-[55px] flex flex-col gap-5'>
             <p>
               Welcome to the bloodiest Player Versus Player death-match in Defi! BloodBath is a DAO driven ecosystem
-              built from the ground up. Pick your favorite seiral killer and slash your way to victory.
+              built from the ground up. Pick your favorite serial killer and slash your way to victory.
             </p>
             <h1>
               Key Features:<br/>
@@ -121,7 +107,7 @@ const Home = () => {
         </div>
         <div className='lg:w-[60%] md:w-[60%] sm:w-[100%] w-[100%] pb-[10px] px-[40px] flex flex-wrap flex-row justify-center gap-[40px]'>
           <button className='border-[2px] border-gray-500 py-[10px] px-[20px] rounded-[10px]'>
-            <img className='w-[100px]' src={WatchLogo} alt=''/>
+            WATCH TRAILER
           </button>
           <div className='px-5 flex gap-[20px] justify-center items-center'>
             <div className='bg-gray-700 w-[30px] h-[30px] rounded-[50%] flex justify-center items-center cursor-pointer'>
@@ -202,7 +188,7 @@ const Home = () => {
                 <img className='w-full' src={jason} alt=''/>
             </div>
             <div className='absolute w-full flex justify-center mt-[500px] lg:mt-[150px] items-center'>
-                <div className='lg:ml-[120px] w-[500px] mt-10'>
+                <div className='lg:ml-[120px] w-[500px] mt-10 flex flex-col gap-2'>
                    <h1 className='ml-1'>
                        <img className='h-[50px]' src={Token} alt=''/>
                    </h1>
@@ -212,9 +198,10 @@ const Home = () => {
                        <li>BLOODY DAO</li>
                        <li>Tokenomics</li>
                    </ul>
-                   <div className='cursor-pointer w-[200px] mt-[10px]'>
-                    <Link to='/token'><img src={btn} alt=''/></Link>
-                   </div>
+                   <Link to='/token'><button className='cursor-pointer flex flex-row mt-[10px] bg-red-600 font-bold px-4 py-[8px] rounded-[25px]'>
+                   <img className='w-[30px]' src={vector} alt=''/>
+                    $BLOOD ANALYSIS
+                    </button></Link>
                 </div>
             </div>
             <div className='h-[500px]'>

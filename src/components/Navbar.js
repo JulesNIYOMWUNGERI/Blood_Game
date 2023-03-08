@@ -36,9 +36,9 @@ const Navbar = () => {
                 <FaDiscord className='cursor-pointer'/>
                 <AiOutlineTwitter className='cursor-pointer'/>
               </div>
-              <button className='bg-red-600 px-4 py-[4px] flex justify-center items-center rounded-[20px] cursor-pointer'>
+              <button className='bg-red-600 px-4 py-[4px] flex justify-center items-center font-semibold rounded-[20px] cursor-pointer'>
                 <img className='w-[30px]' src={vector} alt=''/>
-                <img className='w-[90px]' src={whitePaper} alt=''/>
+                WHITEPAPER
               </button>
           </div>
           <div className='text-white block sm:hidden '>

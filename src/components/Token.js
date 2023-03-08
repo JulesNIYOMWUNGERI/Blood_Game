@@ -1,6 +1,5 @@
 import React from 'react'
 import BloodToken from '../assets/logos/$blood token.png'
-import btn2 from '../assets/logos/Frame 11.png'
 import coin from '../assets/Gifs/gif 1.gif'
 import status from '../assets/images/Stats.png'
 import image62  from '../assets/images/image62 2.png'
@@ -15,9 +14,9 @@ import pig from '../assets/images/Group 234028.png'
 import pigHeader from '../assets/logos/Heading (2).png'
 import statsTile from '../assets/logos/Heading (3).png'
 import pieChart from '../assets/images/Rectangle 94 (2).png'
-import whitePaper from '../assets/logos/White Paper Button.png'
 import Group13333 from '../assets/images/Group (2).png'
 import footer from '../assets/logos/footer.PNG'
+import vector from '../assets/logos/Vector.png'
 
 import {RiFacebookFill} from 'react-icons/ri'
 import {AiFillYoutube,AiOutlineRight,AiOutlineInstagram,AiOutlineTwitter} from 'react-icons/ai'
@@ -32,11 +31,11 @@ const Token = () => {
                     Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure. 
                     Cillum ea non ullamco laboris dolor nostrud dolore pariatur tempor esse et ex exercitation adipisicing.
                 </p>
-                <button className='ml-3'>
-                    <img src={btn2} alt=''/>
+                <button className='ml-3 bg-red-500 w-[200px] h-[55px] rounded-[15px] flex flex-row justify-center items-center text-[18px]'>
+                    Enter WhiteList <AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                 </button>
             </div>
-            <div className='md:w-[30%]'>
+            <div className='md:w-[30%] '>
                 <img src={coin} alt=''/>
             </div>
         </div>
@@ -235,7 +234,7 @@ const Token = () => {
         <div>
             <img className='h-[10ppx] w-full' src={footer} alt=''/>
         </div>
-        <footer className='footer w-full py-[30px] flex flex-row justify-center items-center'>
+        <footer className='footer w-full py-[30px] flex flex-row flex-wrap justify-center items-center gap-6 md:gap-0'>
           <div className='flex justify-center items-center text-white'>
             <h1>JOIN THE CONVERSATION</h1>
           </div>
@@ -253,8 +252,9 @@ const Token = () => {
               <AiOutlineTwitter/>
             </div>
           </div>
-          <button className=''>
-            <img className='w-[100px]' src={whitePaper} alt=''/>
+          <button className='flex flex-row bg-red-600 px-4 py-[4px] justify-center items-center font-semibold rounded-[20px] cursor-pointer text-white text-[13px]'>
+            <img className='w-[30px]' src={vector} alt=''/>
+            JOIN WHITEPAPER
           </button>
         </footer>
     </div>
