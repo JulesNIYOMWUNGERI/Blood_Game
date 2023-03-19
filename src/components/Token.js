@@ -28,8 +28,9 @@ const Token = () => {
             <div className='text-white flex flex-col gap-5 md:w-[40%] w-[95%]'>
                 <img src={BloodToken} alt=''/>
                 <p className='ml-5'>
-                    Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure. 
-                    Cillum ea non ullamco laboris dolor nostrud dolore pariatur tempor esse et ex exercitation adipisicing.
+                   These tokenomics are just bloody awesome! Our community is built on a
+                   sustainable game model that is built to both earn profits and increase the
+                   value of your invested capital.
                 </p>
                 <button className='ml-3 bg-red-500 w-[200px] h-[55px] rounded-[15px] flex flex-row justify-center items-center text-[18px]'>
                     Enter WhiteList <AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
@@ -51,8 +52,10 @@ const Token = () => {
                     <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/>
                   </h1>
                   <p className='md:ml-[70px] ml-[40px] text-white'>
-                    Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure.
-                    Laborum laborum nisi quis et do non. 
+                      The BloodBath ecosystem is designed as a self-sustaining, revenue-generating
+                      community with a token staking mechanism. Additonally, a totally transparent
+                      treasury reserve will be utilized to continually expand the ecosystem along
+                      growth in revenue opportunities.
                   </p>
                   <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
                     Buy<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
@@ -73,8 +76,11 @@ const Token = () => {
                     <img src={heading} alt=''/>
                 </h1>
                 <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
-                    Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure.
-                    Laborum laborum nisi quis et do non. 
+                    BloodBath offers an entertaining and addictive game with both PVP and PVE
+                    modes. Players can use $BLOOD to enter one-on-one fights, tournaments,
+                    leagues, and special contest modes to win titles, prize pools, and the ultimate
+                    glory of the bloodiest badass in crypto gaming. And yes... There will be a
+                    bloody battle royale where only the most ruthless will survive!
                 </p>
                 <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
                     Play<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
@@ -89,8 +95,10 @@ const Token = () => {
                         <img src={meterTitle} alt=''/>
                     </h1>
                     <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
-                        Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure.
-                        Laborum laborum nisi quis et do non. 
+                        The BloodBath ecosystem not only promises to be the best P2E & PVP crypto
+                        game on the market, but also the most transparent. Empower your
+                        investment and the help make the most critical decisions on the direction of
+                        the project through the $BLOOD DAO. 
                     </p>
                     <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
                         Vote<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
@@ -110,8 +118,9 @@ const Token = () => {
                     <img src={pigHeader} alt=''/>
                 </h1>
                 <p className='text-white md:ml-[70px] ml-[40px] mb-2'>
-                    Laborum laborum nisi quis et do non. Irure excepteur nostrud incididunt aute exercitation irure.
-                    Laborum laborum nisi quis et do non. 
+                    Enhance your returns through staking your $BLOOD tokens and earn rewards
+                    when you are not even fighting in the BloodBath Arena. Redeem your tokens
+                    while others bleed out in mortal death matches!
                 </p>
                 <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
                     Stake<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>

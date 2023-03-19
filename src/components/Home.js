@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState,useRef } from 'react';
 import image from '../assets/images/Background Image.jpg'
 import logo from '../assets/logos/Logo-1.png'
 
@@ -22,7 +22,7 @@ import GhostFace from '../assets/Gifs/Ghostface_Gif3 1.gif'
 import {AiFillYoutube,AiOutlineInstagram,AiOutlineTwitter,AiOutlineDown} from 'react-icons/ai'
 import {RiFacebookFill} from 'react-icons/ri'
 import {BsArrowLeft,BsArrowRight} from 'react-icons/bs'
-import {BsPlayFill} from 'react-icons/bs'
+import {BsPlayFill,BsFillPlayFill,BsFillPauseFill} from 'react-icons/bs'
 
 import image2222 from '../assets/images/002.png'
 import jason from '../assets/Gifs/Jason_pose2 2.gif'
@@ -47,11 +47,32 @@ import image43333 from '../assets/images/image_2022_09_28T02_48_11_965Z.png'
 import image53333 from '../assets/images/image_2022_09_28T02_47_35_309Z.png'
 import { Link } from 'react-router-dom';
 import vector from '../assets/logos/Vector.png'
+import topVideo from '../assets/videos/original-B02893CB-0F04-4411-9B9C-A12F6ADB9937.mp4'
+import jvsc from '../assets/videos/jvsc.00002.mp4'
 
 
 const Home = () => {
+  const [play, setPlay] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isVideoMuted, setIsVideoMuted] = useState(false);
+  const videoRef = useRef(null);
+
+
+  const onVideoPress = () => {
+    if(isPlaying){
+      videoRef?.current?.pause();
+      setIsPlaying(false);
+    }else{
+      videoRef?.current?.play();
+      setIsPlaying(true);
+    }
+  }
+
     return (
         <div>
+            <div>
+              <video className='w-[100%] object-[cover]' src={topVideo} loop muted autoplay="autoplay"/>
+            </div>
             <div className='w-full h-screen relative top-0' id='home'>
               <img src={image} alt="/" className='w-full h-full object-cover absolute mix-blend-overlay'/>
               <div className='text-[30px] h-screen font-extrabold flex justify-center items-center pt-[170px] relative'>
@@ -131,16 +152,33 @@ const Home = () => {
           <div className='w-full flex flex-col items-center justify-center py-[50px] relative'>
             <img className='lg:w-[50%] md:w-[70%] sm:w-full lg:h-[750px] md:h-[1000px] sm:h-[1300px] h-[1000px]' src={rectangle} alt=''/>
             <div className='flex flex-wrap flex-row justify-center items-center absolute top-4 w-full'>
-                <div className='lg:w-[45%] md:w-[600px] sm:w-screen relative flex justify-center items-center'>
-                  <img src={rectangle5} alt=''/>
-                  <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute md:top-[120px] top[100px] flex justify-center items-center'><BsPlayFill size={20}/></div>
+                <div
+                 onMouseEnter={() => {
+                    setPlay(true)
+                }}
+                 onMouseLeave={() =>{ 
+                  if(isPlaying){
+                    setPlay(false)
+                  }else{
+                    setPlay(true)
+                  }
+                }}
+                 className='lg:w-[42%] md:w-[600px] sm:w-screen relative flex justify-center items-center'>
+                  <video src={jvsc} loop ref={videoRef} />
+                  {play && <div onClick={onVideoPress} className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute md:top-[120px] top[100px] flex justify-center items-center'>
+                                 {isPlaying ? (
+                                  <BsFillPauseFill size={20}/>
+                                 ) : (
+                                  <BsFillPlayFill size={20}/> 
+                                 )}
+                              </div>}
                 </div>
                 <div className='lg:w-[45%] md:w-[600px] sm:w-screen relative flex justify-center items-center'>
                   <img src={rectangle26} alt=''/>
                   <div className='w-[40px] h-[40px] rounded-[50%] border-[2px] absolute md:top-[120px] top[100px] flex justify-center items-center'><BsPlayFill size={20}/></div>
                 </div>
             </div>
-            <img className='absolute left-0 top-[50px] w-[200px] hidden lg:block' src={Group1} alt=''/>
+            <img className='absolute left-0 top-[60px] w-[200px] hidden lg:block' src={Group1} alt=''/>
             <img className='absolute right-0 lg:w-[400px] h-[300px] md:w-[200px] mt-[70px] hidden md:block' src={GhostFace} alt=''/>
             <div className=' flex justify-center items-center flex-col lg:w-[50%] md:w-[70%] sm:w-full w-full absolute lg:mt-[50px] md:mt-[200px] sm:mt-[100px] mt-[10px]'>
                <h1>
