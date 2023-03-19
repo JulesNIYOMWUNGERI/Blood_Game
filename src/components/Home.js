@@ -73,7 +73,7 @@ const Home = () => {
             <div>
               <video className='w-[100%] object-[cover]' src={topVideo} loop muted autoplay="autoplay"/>
             </div>
-            <div className='w-full h-screen relative top-0' id='home'>
+            {/* <div className='w-full h-screen relative top-0' id='home'>
               <img src={image} alt="/" className='w-full h-full object-cover absolute mix-blend-overlay'/>
               <div className='text-[30px] h-screen font-extrabold flex justify-center items-center pt-[170px] relative'>
                   <div className='h-[360px] w-[300px]'>
@@ -83,7 +83,7 @@ const Home = () => {
                       <img className='w-[550px]' src={logo} alt=''/>
                   </div>
               </div>
-            </div>
+            </div> */}
             <div className='bg-black text-white w-full pt-[100px] h-auto relative flex justify-end flex-row flex-wrap' id='about'>
         <div className='bg-transparent lg:w-[49%] md:w-[49%] sm:w-[100%] w-[100%] flex flex-col pl-[0px]'>
           <div className='bg-transparent'>
