@@ -258,7 +258,7 @@ const Home = () => {
           <div className='flex flex-col justify-center items-center relative'>
             {/* <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/> */}
             <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000]'>GAME CHARACTERS</h1>
-            <img className='absolute left-[380px] mb-[90px]' src={blood} alt=''/>
+            {/* <img className='absolute left-[380px] mb-[90px]' src={blood} alt=''/> */}
             <p className='text-[18px] text-white'>
               Start with your favorite Serial Killers as you stab and<br/>
               slash your way to victory. Challengethe computer to <br/>
@@ -312,7 +312,7 @@ const Home = () => {
         <div className='z-[1000000000000]'>
           <h1 className='flex justify-center items-center relative'>
             {/* <img className='w-[400px] h-[170px]' src={GamePlayLogo} alt=''/> */}
-            <img className='absolute left-[480px] mb-[30px]' src={blood} alt=''/>
+            {/* <img className='absolute left-[480px] mb-[30px]' src={blood} alt=''/> */}
             <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>GAME PLAY</h1>
           </h1>
           <div className='flex justify-center items-center relative pt-[150px] pb-[120px]'>
@@ -352,7 +352,7 @@ const Home = () => {
             <h1 className='flex justify-center items-center relative'>
               {/* <img className='w-[400px] h-[170px] z-[100000]' src={LoadMap} alt=''/> */}
               <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>ROADMAP</h1>
-              <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/>
+              {/* <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/> */}
             </h1>
             <div className='z-[1000] relative'>
               <div className='flex flex-row flex-wrap justify-center gap-[200px] py-5'>
@@ -448,7 +448,7 @@ const Home = () => {
         <div className='w-full h-auto' id='teams'>
           <h1 className='flex justify-center items-center z-[100000] relative'>
              <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>OUR TEAM</h1>
-              <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/>
+              {/* <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/> */}
           </h1>
           <div className='flex flex-row flex-wrap gap-3 justify-center items-center'>
             <div className='z-[100000000000000]'>
