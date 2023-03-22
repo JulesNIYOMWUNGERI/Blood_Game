@@ -87,10 +87,10 @@ const Home = () => {
             </div> */}
             <div className='bg-black text-white w-full pt-[100px] h-auto relative flex justify-end flex-row flex-wrap' id='about'>
         <div className='bg-transparent lg:w-[49%] md:w-[49%] sm:w-[100%] w-[100%] flex flex-col pl-[0px]'>
-          <div className='bg-transparent pl-[50px] pb-[20px] relative'>
+          <div className='bg-transparent pl-[50px] pb-[20px] flex relative'>
             {/* <img src={AboutLogo} alt=''/> */}
-            <h1 className='text-[50px]'>ABOUT</h1>
-            {/* <img className='absolute left-[-10px] top-[-90px]' src={blood} alt=''/> */}
+            <h1 className='text-[60px] font-bold z-[10000]'>ABOUT</h1>
+            <img className='absolute left-[-30px] top-[-70px]' src={blood} alt=''/>
           </div>
           <div className='pl-[55px] flex flex-col gap-5'>
             <p>
@@ -184,11 +184,11 @@ const Home = () => {
             <img className='absolute left-0 top-[60px] w-[200px] hidden lg:block' src={Group1} alt=''/>
             <img className='absolute right-0 lg:w-[400px] h-[300px] md:w-[200px] mt-[70px] hidden md:block' src={GhostFace} alt=''/>
             <div className=' flex justify-center items-center flex-col lg:w-[50%] md:w-[70%] sm:w-full w-full absolute lg:mt-[50px] md:mt-[200px] sm:mt-[100px] mt-[10px]'>
-               <h1 className='relative z-[1000]'>
+               <div className='flex relative z-[1000]'>
                  {/* <img src={HowToPlay} alt=''/> */}
-                 <h1 className='text-[50px] font-[700] pb-[20px] '>HOW TO PLAY</h1>
-                 {/* <img className='absolute left-[-90px] top-[-50px]' src={blood} alt=''/> */}
-               </h1>
+                 <h1 className='text-[50px] font-[700] pb-[20px] z-[10000]'>HOW TO PLAY</h1>
+                 <img className='absolute left-[-90px] top-[-70px]' src={blood} alt=''/>
+               </div>
                <p className='text-center'>
                  Join the BloodBath community! Connect your wallet, buy your $BLOOD tokens.
                  find a challenger, set the wager, and let the blood blow!
@@ -255,10 +255,12 @@ const Home = () => {
     </div>
     <div className='bg-black' id='character'>
        <div className='flex flex-col gap-[30px] py-[50px]'>
-          <div className='flex flex-col justify-center items-center relative'>
-            {/* <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/> */}
-            <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000]'>GAME CHARACTERS</h1>
-            {/* <img className='absolute left-[380px] mb-[90px]' src={blood} alt=''/> */}
+          <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-row justify-center items-center relative'>
+              {/* <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/> */}
+              <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000]'>GAME CHARACTERS</h1>
+              <img className='absolute left-[-80px] top-[-70px]' src={blood} alt=''/>
+            </div> 
             <p className='text-[18px] text-white'>
               Start with your favorite Serial Killers as you stab and<br/>
               slash your way to victory. Challengethe computer to <br/>
@@ -310,11 +312,14 @@ const Home = () => {
        </div>
        <div className='w-full relative bg-transparent'>
         <div className='z-[1000000000000]'>
-          <h1 className='flex justify-center items-center relative'>
+          <div className='flex justify-center items-center mb-5'>
+           <h1 className='flex justify-center items-center relative w-[400px]'>
             {/* <img className='w-[400px] h-[170px]' src={GamePlayLogo} alt=''/> */}
-            {/* <img className='absolute left-[480px] mb-[30px]' src={blood} alt=''/> */}
+            <img className='absolute left-0 mb-[30px]' src={blood} alt=''/>
             <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>GAME PLAY</h1>
-          </h1>
+           </h1>
+          </div>
+          
           <div className='flex justify-center items-center relative pt-[150px] pb-[120px]'>
             <div className='absolute top-8 left-[100px] z-[100] flex justify-center items-center '>
               <img className='w-[250px]' src={image13333} alt=''/>
@@ -348,11 +353,11 @@ const Home = () => {
         </div>
         <div className='absolute top-[160px] md:left-[70px] left-0 md:w-[550px] w-full h-[650px] z-[1] bgContainer2'></div>
         <div className='w-full h-auto'>
-          <div className='z-[1000]'>
-            <h1 className='flex justify-center items-center relative'>
+          <div className='z-[1000] flex flex-col items-center justify-center'>
+            <h1 className='flex justify-center items-center relative w-[400px]'>
               {/* <img className='w-[400px] h-[170px] z-[100000]' src={LoadMap} alt=''/> */}
               <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>ROADMAP</h1>
-              {/* <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/> */}
+              <img className='absolute left-0 mb-[30px] z-[100]' src={blood} alt=''/>
             </h1>
             <div className='z-[1000] relative'>
               <div className='flex flex-row flex-wrap justify-center gap-[200px] py-5'>
@@ -445,10 +450,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='w-full h-auto' id='teams'>
-          <h1 className='flex justify-center items-center z-[100000] relative'>
+        <div className='w-full h-auto flex flex-col justify-center items-center' id='teams'>
+          <h1 className='flex justify-center items-center z-[100000] relative w-[400px]'>
              <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>OUR TEAM</h1>
-              {/* <img className='absolute left-[480px] mb-[30px] z-[100]' src={blood} alt=''/> */}
+              <img className='absolute left-0 mb-[30px] z-[100]' src={blood} alt=''/>
           </h1>
           <div className='flex flex-row flex-wrap gap-3 justify-center items-center'>
             <div className='z-[100000000000000]'>
@@ -481,7 +486,7 @@ const Home = () => {
             <img className='w-[400px] h-[300px]' src={freddy} alt=''/>
           </div>
           <div className='flex flex-col gap-5 justify-center items-center md:w-[530px] w-screen'>
-            <h1 className='w-[550px] relative Z-[10000]'>
+            <h1 className='w-[550px] flex relative Z-[10000]'>
               <h1 className='text-[45px] text-white mb-[20px] font-bold text-center'>FREQUENTLY ASKED QUESTIONS</h1>
               {/* <img className='absolute left-[-80px] bottom-[10px]' src={blood} alt=''/> */}
             </h1>

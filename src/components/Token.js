@@ -136,8 +136,10 @@ const Token = () => {
         <div className='bg-black flex flex-col justify-content items-end w-full relative'>
            <div className='lastContainer md:w-[50%] w-[95%] md:h-[700px] h-[1000px] md:mr-[120px]'></div>
            <div className='flex flex-col justify-center items-center w-full absolute'>
+            <div className='flex relative'>
                 <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>HEADING</h1>
-                {/* <img className='absolute left-[500px] top-[-60px]' src={blood} alt=''/> */}
+                <img className='absolute left-[-33px] top-[-60px]' src={blood} alt=''/>
+            </div>
                 <img className='w-[500px]' src={pieChart} alt=''/>
            </div>
            <div className='flex flex-col justify-center items-center w-full mb-[80px]'>
