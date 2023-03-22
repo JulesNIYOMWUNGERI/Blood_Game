@@ -7,7 +7,7 @@ import Token from './components/Token';
 
 function App() {
   return (
-    <div className='font-sans'>
+    <div className='font-[Montserrat]'>
       <Navbar/>
       <div>
         <Routes>

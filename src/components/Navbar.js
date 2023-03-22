@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
     return (
-      <div className='w-full h-auto flex justify-center  font-sans absolute top-0 z-[1000000000]'>
+      <div className='w-full h-auto flex justify-center font-[Montserrat] absolute top-0 z-[1000000000]'>
         <div className='bg-[#000000cb] w-full h-[50px] flex flex-row justify-between items-center px-6 py-7'>
           <div className='text-white cursor-pointer w-[100px]'>
               <Link to='/'><img className='bg-black' src={Logo} alt='/'/></Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <AiOutlineTwitter className='cursor-pointer'/>
               </div>
               <button className='bg-red-600 px-4 py-[4px] flex justify-center items-center font-semibold rounded-[20px] cursor-pointer'>
-                <img className='w-[30px]' src={vector} alt=''/>
+                <img className='w-[23px]' src={vector} alt=''/>
                 WHITEPAPER
               </button>
           </div>

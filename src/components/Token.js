@@ -17,6 +17,7 @@ import pieChart from '../assets/images/Rectangle 94 (2).png'
 import Group13333 from '../assets/images/Group (2).png'
 import footer from '../assets/logos/footer.PNG'
 import vector from '../assets/logos/Vector.png'
+import blood from '../assets/logos/Group (11).png'
 
 import {RiFacebookFill} from 'react-icons/ri'
 import {AiFillYoutube,AiOutlineRight,AiOutlineInstagram,AiOutlineTwitter} from 'react-icons/ai'
@@ -26,7 +27,7 @@ const Token = () => {
     <div className='relative'>
         <div className='WraperContainer w-full h-auto py-[150px] flex flex-row justify-center items-center gap-5'>
             <div className='text-white flex flex-col gap-5 md:w-[40%] w-[95%]'>
-                <img src={BloodToken} alt=''/>
+                <h1 className='text-[70px] font-bold'>$BLOOD TOKEN</h1>
                 <p className='ml-5'>
                    These tokenomics are just bloody awesome! Our community is built on a
                    sustainable game model that is built to both earn profits and increase the
@@ -45,13 +46,14 @@ const Token = () => {
                 <img src={status} alt=''/>
             </div>
             <img className='absolute left-0 top-[700px] w-[200px]' src={newDash} alt=''/>
-            <div className='w-full flex flex-row flex-wrap justify-between items-center pl-[40px]  mt-[120px]'>
-              <div className='md:w-[45%] w-[95%] flex flex-col md:gap-[30px] gap-[80px]'>
+            <div className='w-full flex flex-row flex-wrap justify-between items-center pl-[40px]  mt-[200px]'>
+              <div className='md:w-[60%] w-[95%] flex flex-col md:gap-[30px] gap-[80px]'>
                   <h1 className='relative flex flex-row'>
-                    <img className='md:w-[200px] w-[100px]' src={bloodDash} alt=''/>
-                    <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/>
+                    <img className='md:w-[170px] w-[100px]' src={bloodDash} alt=''/>
+                    <h1 className='text-[50px] font-bold text-white absolute md:left-[85px] left-[40px] top-[65px]'>$BLOOD TOKEN <br/>ECOSYSTEM & REVENUE</h1>
+                    {/* <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/> */}
                   </h1>
-                  <p className='md:ml-[70px] ml-[40px] text-white'>
+                  <p className='md:ml-[70px] pl-[20px] text-white w-[70%] mt-[20px]'>
                       The BloodBath ecosystem is designed as a self-sustaining, revenue-generating
                       community with a token staking mechanism. Additonally, a totally transparent
                       treasury reserve will be utilized to continually expand the ecosystem along
@@ -71,9 +73,11 @@ const Token = () => {
                 <img className='z-[10000] absolute bottom-3' src={zombie} alt=''/>
                 <img className='' src={Group13333} alt=''/>
             </div>
-            <div className='md:w-[35%] w-[95%] flex flex-col'>
-                <h1>
-                    <img src={heading} alt=''/>
+            <div className='md:w-[35%] w-[95%] flex flex-col relative'>
+                <h1 className='flex relative'>
+                    {/* <img src={heading} alt=''/> */}
+                    <h1 className='text-[56px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>SLAY TO EARN</h1>
+                    <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                 </h1>
                 <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
                     BloodBath offers an entertaining and addictive game with both PVP and PVE
@@ -91,8 +95,9 @@ const Token = () => {
             <div className='middleContainer md:w-[60%] w-[95%] md:h-[700px] h-[1000px]'></div>
             <div className='absolute top-[200px] flex flex-row flex-wrap justify-center items-center gap-[100px]'>
                 <div className='flex flex-col md:w-[40%] w-[95%]'>
-                    <h1>
-                        <img src={meterTitle} alt=''/>
+                    <h1 className='flex relative'>
+                       <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>BLOODY DAO</h1>
+                      <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                     </h1>
                     <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
                         The BloodBath ecosystem not only promises to be the best P2E & PVP crypto
@@ -114,8 +119,9 @@ const Token = () => {
                 <img className='w-[400px]' src={pig} alt=''/>
             </div>
             <div className='md:w-[45%] w-[95%] flex flex-col gap-4'>
-                <h1>
-                    <img src={pigHeader} alt=''/>
+                <h1 className='flex relative'>
+                    <h1 className='text-[50px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>$BANK YOUR<br/>$BLOOD BY STAKING</h1>
+                    <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                 </h1>
                 <p className='text-white md:ml-[70px] ml-[40px] mb-2'>
                     Enhance your returns through staking your $BLOOD tokens and earn rewards
@@ -130,8 +136,9 @@ const Token = () => {
         <div className='bg-black flex flex-col justify-content items-end w-full relative'>
            <div className='lastContainer md:w-[50%] w-[95%] md:h-[700px] h-[1000px] md:mr-[120px]'></div>
            <div className='flex flex-col justify-center items-center w-full absolute'>
-             <img className='w-[300px]' src={statsTile} alt=''/>
-             <img className='w-[500px]' src={pieChart} alt=''/>
+                <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>HEADING</h1>
+                <img className='absolute left-[500px] top-[-60px]' src={blood} alt=''/>
+                <img className='w-[500px]' src={pieChart} alt=''/>
            </div>
            <div className='flex flex-col justify-center items-center w-full mb-[80px]'>
             <div className='border-[1px] border-red-700 rounded-[10px] table'>
