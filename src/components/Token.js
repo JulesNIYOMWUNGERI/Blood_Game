@@ -27,13 +27,13 @@ const Token = () => {
     <div className='relative'>
         <div className='WraperContainer w-full h-auto py-[150px] flex flex-row justify-center items-center gap-5'>
             <div className='text-white flex flex-col gap-5 md:w-[40%] w-[95%]'>
-                <h1 className='text-[70px] font-bold'>$BLOOD TOKEN</h1>
-                <p className='ml-5'>
+                <h1 className='text-[70px] font-bold font-[RoadRage]'>$BLOOD TOKEN</h1>
+                <p className='ml-5 font-[Montserrat]'>
                    These tokenomics are just bloody awesome! Our community is built on a
                    sustainable game model that is built to both earn profits and increase the
                    value of your invested capital.
                 </p>
-                <button className='ml-3 bg-red-500 w-[200px] h-[55px] rounded-[15px] flex flex-row justify-center items-center text-[18px]'>
+                <button className='ml-3 bg-red-500 w-[200px] h-[55px] rounded-[15px] flex flex-row justify-center items-center text-[18px] font-[Roboto]'>
                     Enter WhiteList <AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                 </button>
             </div>
@@ -50,16 +50,16 @@ const Token = () => {
               <div className='md:w-[60%] w-[95%] flex flex-col md:gap-[30px] gap-[80px]'>
                   <h1 className='relative flex flex-row'>
                     <img className='md:w-[170px] w-[100px]' src={bloodDash} alt=''/>
-                    <h1 className='text-[50px] font-bold text-white absolute md:left-[85px] left-[40px] top-[65px]'>$BLOOD TOKEN <br/>ECOSYSTEM & REVENUE</h1>
+                    <h1 className='text-[50px] font-bold text-white absolute md:left-[85px] left-[40px] top-[65px] font-[RoadRage]'>$BLOOD TOKEN <br/>ECOSYSTEM & REVENUE</h1>
                     {/* <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/> */}
                   </h1>
-                  <p className='md:ml-[70px] pl-[20px] text-white w-[70%] mt-[20px]'>
+                  <p className='md:ml-[70px] pl-[20px] text-white w-[70%] mt-[20px] font-[Montserrat]'>
                       The BloodBath ecosystem is designed as a self-sustaining, revenue-generating
                       community with a token staking mechanism. Additonally, a totally transparent
                       treasury reserve will be utilized to continually expand the ecosystem along
                       growth in revenue opportunities.
                   </p>
-                  <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
+                  <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px] font-[Roboto]'>
                     Buy<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                   </button>
               </div>            
@@ -76,17 +76,17 @@ const Token = () => {
             <div className='md:w-[35%] w-[95%] flex flex-col relative'>
                 <h1 className='flex relative'>
                     {/* <img src={heading} alt=''/> */}
-                    <h1 className='text-[56px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>SLAY TO EARN</h1>
+                    <h1 className='text-[56px] text-white mb-[20px] ml-[60px] font-bold z-[1000] font-[RoadRage]'>SLAY TO EARN!</h1>
                     <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                 </h1>
-                <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
+                <p className='text-white md:ml-[70px] ml-[40px] mb-5 font-[Montserrat]'>
                     BloodBath offers an entertaining and addictive game with both PVP and PVE
                     modes. Players can use $BLOOD to enter one-on-one fights, tournaments,
                     leagues, and special contest modes to win titles, prize pools, and the ultimate
                     glory of the bloodiest badass in crypto gaming. And yes... There will be a
                     bloody battle royale where only the most ruthless will survive!
                 </p>
-                <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
+                <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px] font-[Roboto]'>
                     Play<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                 </button>
             </div>
@@ -96,16 +96,16 @@ const Token = () => {
             <div className='absolute top-[200px] flex flex-row flex-wrap justify-center items-center gap-[100px]'>
                 <div className='flex flex-col md:w-[40%] w-[95%]'>
                     <h1 className='flex relative'>
-                       <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>BLOODY DAO</h1>
+                       <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000] font-[RoadRage]'>BLOODY DAO</h1>
                       <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                     </h1>
-                    <p className='text-white md:ml-[70px] ml-[40px] mb-5'>
+                    <p className='text-white md:ml-[70px] ml-[40px] mb-5 font-[Montserrat]'>
                         The BloodBath ecosystem not only promises to be the best P2E & PVP crypto
                         game on the market, but also the most transparent. Empower your
                         investment and the help make the most critical decisions on the direction of
                         the project through the $BLOOD DAO. 
                     </p>
-                    <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
+                    <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px] font-[Roboto]'>
                         Vote<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                     </button>
                 </div>
@@ -120,15 +120,15 @@ const Token = () => {
             </div>
             <div className='md:w-[45%] w-[95%] flex flex-col gap-4'>
                 <h1 className='flex relative'>
-                    <h1 className='text-[50px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>$BANK YOUR<br/>$BLOOD BY STAKING</h1>
+                    <h1 className='text-[50px] text-white mb-[20px] ml-[60px] font-bold z-[1000] font-[RoadRage]'>$BANK YOUR<br/>$BLOOD BY STAKING</h1>
                     <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                 </h1>
-                <p className='text-white md:ml-[70px] ml-[40px] mb-2'>
+                <p className='text-white md:ml-[70px] ml-[40px] mb-2 font-[Montserrat]'>
                     Enhance your returns through staking your $BLOOD tokens and earn rewards
                     when you are not even fighting in the BloodBath Arena. Redeem your tokens
                     while others bleed out in mortal death matches!
                 </p>
-                <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px]'>
+                <button className='text-white border-[2px] border-gray-500 flex justify-center items-center w-[60px] py-1 rounded-[10px] md:ml-[70px] ml-[40px] font-[Roboto]'>
                     Stake<AiOutlineRight size={15} className='mt-1 flex justify-center items-center'/>
                 </button>
             </div>
@@ -137,14 +137,14 @@ const Token = () => {
            <div className='lastContainer md:w-[50%] w-[95%] md:h-[700px] h-[1000px] md:mr-[120px]'></div>
            <div className='flex flex-col justify-center items-center w-full absolute'>
             <div className='flex relative'>
-                <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000]'>HEADING</h1>
+                <h1 className='text-[60px] text-white mb-[20px] ml-[60px] font-bold z-[1000] font-[RoadRage]'>HEADING</h1>
                 <img className='absolute left-[-33px] top-[-60px]' src={blood} alt=''/>
             </div>
                 <img className='w-[500px]' src={pieChart} alt=''/>
            </div>
            <div className='flex flex-col justify-center items-center w-full mb-[80px]'>
             <div className='border-[1px] border-red-700 rounded-[10px] table'>
-            <table className='text-white text-[10px]'>
+            <table className='text-white text-[10px] font-[Intel]'>
                 <tr>
 
                     <th className='md:py-[12px] md:px-[25px]'>Allocations</th>

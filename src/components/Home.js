@@ -89,10 +89,10 @@ const Home = () => {
         <div className='bg-transparent lg:w-[49%] md:w-[49%] sm:w-[100%] w-[100%] flex flex-col pl-[0px]'>
           <div className='bg-transparent pl-[50px] pb-[20px] flex relative'>
             {/* <img src={AboutLogo} alt=''/> */}
-            <h1 className='text-[60px] font-bold z-[10000]'>ABOUT</h1>
+            <h1 className='text-[60px] font-bold z-[10000] font-[RoadRage]'>ABOUT</h1>
             <img className='absolute left-[-30px] top-[-70px]' src={blood} alt=''/>
           </div>
-          <div className='pl-[55px] flex flex-col gap-5'>
+          <div className='pl-[55px] flex flex-col gap-5 font-[Montserrat]'>
             <p>
               Welcome to the bloodiest Player Versus Player death-match in Defi! BloodBath is a DAO driven ecosystem
               built from the ground up. Pick your favorite serial killer and slash your way to victory.
@@ -120,9 +120,9 @@ const Home = () => {
            </div>
            <div className='flex flex-col'>
             <div className='flex justify-center md:justify-start'>
-              <h1 className='text-[50px]'>Sneak Preview</h1>
+              <h1 className='text-[50px] font-[RoadRage]'>Sneak Preview</h1>
             </div>
-            <div className='text-center md:text-start pb-[50px]'>
+            <div className='text-center md:text-start pb-[50px] font-[Montserrat]'>
               <p>
                 Take a look at the carnage of the bloodBath Arena. Let the blood flow!
               </p>
@@ -130,7 +130,7 @@ const Home = () => {
            </div>
         </div>
         <div className='lg:w-[60%] md:w-[60%] sm:w-[100%] w-[100%] pb-[10px] px-[40px] flex flex-wrap flex-row justify-center gap-[40px]'>
-          <button className='border-[2px] border-gray-500 py-[10px] px-[20px] rounded-[10px]'>
+          <button className='border-[2px] border-gray-500 py-[10px] px-[20px] rounded-[10px] font-[RoadRage]'>
             WATCH TRAILER
           </button>
           <div className='px-5 flex gap-[20px] justify-center items-center'>
@@ -147,7 +147,7 @@ const Home = () => {
               <AiOutlineTwitter/>
             </div>
           </div>
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-center items-center font-[Montserrat]'>
             <h1>JOIN THE CONVERSATION</h1>
           </div>
         </div>
@@ -186,10 +186,10 @@ const Home = () => {
             <div className=' flex justify-center items-center flex-col lg:w-[50%] md:w-[70%] sm:w-full w-full absolute lg:mt-[50px] md:mt-[200px] sm:mt-[100px] mt-[10px]'>
                <div className='flex relative z-[1000]'>
                  {/* <img src={HowToPlay} alt=''/> */}
-                 <h1 className='text-[50px] font-[700] pb-[20px] z-[10000]'>HOW TO PLAY</h1>
+                 <h1 className='text-[50px] font-[700] pb-[20px] z-[10000] font-[RoadRage]'>HOW TO PLAY</h1>
                  <img className='absolute left-[-90px] top-[-70px]' src={blood} alt=''/>
                </div>
-               <p className='text-center'>
+               <p className='text-center font-[Montserrat]'>
                  Join the BloodBath community! Connect your wallet, buy your $BLOOD tokens.
                  find a challenger, set the wager, and let the blood blow!
                </p>
@@ -200,25 +200,25 @@ const Home = () => {
                </div>
                <div className='flex flex-col gap-5 justify-center lg:w-[450px] md:w-[450px] sm:w-[90%] w-[90%] h-[300px] md:h-[250px]'>
                  <div>
-                   <h1>
+                   <h1  className='font-[RoadRage]'>
                     {/* <img className='w-[150px]' src={Download} alt=''/> */}
                     <strong>1.Download</strong>
                   </h1>
-                   <p>iOS and Windows compatible.</p>
+                   <p className='font-[Montserrat]'>iOS and Windows compatible.</p>
                  </div>
                  <div>
-                   <h1>
+                   <h1 className='font-[RoadRage]'>
                     {/* <img className='w-[300px]' src={SelectAvatar} alt=''/> */}
                     <strong>2.Select seiral killer & Arena</strong>
                   </h1>
-                   <p>Choose your villain and set your wager.</p>
+                   <p className='font-[Montserrat]'>Choose your villain and set your wager.</p>
                  </div>
                  <div>
-                   <h1>
+                   <h1 className='font-[RoadRage]'>
                     {/* <img className='w-[100px]' src={Play} alt=''/> */}
                     <strong>3.Play</strong>
                    </h1>
-                   <p>Go head-to-head in bloody combat in a winner take all<br/> battle.</p>
+                   <p className='font-[Montserrat]'>Go head-to-head in bloody combat in a winner take all<br/> battle.</p>
                  </div>
                </div>
             </div>
@@ -234,15 +234,15 @@ const Home = () => {
                 <div className='lg:ml-[120px] w-[500px] mt-10 flex flex-col gap-2'>
                    <h1 className='ml-1'>
                        {/* <img className='h-[50px]' src={Token} alt=''/> */}
-                       <h1 className='text-[50px] font-bold'>$BLOOD TOKEN</h1>
+                       <h1 className='text-[50px] font-bold font-[RoadRage]' >$BLOOD TOKEN</h1>
                    </h1>
-                   <ul className='ml-4 list-disc'>
+                   <ul className='ml-4 list-disc font-[Montserrat]'>
                        <li>Bank your $BLOOD with staking</li>
                        <li>Slay to Earn</li>
                        <li>BLOODY DAO</li>
                        <li>Tokenomics</li>
                    </ul>
-                   <Link to='/token'><button className='cursor-pointer flex justify-center items-center gap-[3px] flex-row mt-[10px] bg-red-600 font-bold px-4 py-[8px] rounded-[25px]'>
+                   <Link to='/token'><button className='cursor-pointer flex justify-center items-center gap-[3px] flex-row mt-[10px] bg-red-600 font-bold px-4 py-[8px] rounded-[25px] font-[RoadRage]'>
                    <img className='w-[25px]' src={vector} alt=''/>
                     $BLOOD ANALYSIS
                     </button></Link>
@@ -258,10 +258,10 @@ const Home = () => {
           <div className='flex flex-col justify-center items-center'>
             <div className='flex flex-row justify-center items-center relative'>
               {/* <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/> */}
-              <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000]'>GAME CHARACTERS</h1>
+              <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000] font-[RoadRage]'>GAME CHARACTERS</h1>
               <img className='absolute left-[-80px] top-[-70px]' src={blood} alt=''/>
             </div> 
-            <p className='text-[18px] text-white'>
+            <p className='text-[18px] text-white font-[Montserrat]'>
               Start with your favorite Serial Killers as you stab and<br/>
               slash your way to victory. Challengethe computer to <br/>
               unlock new levels and new Killers.
@@ -316,7 +316,7 @@ const Home = () => {
            <h1 className='flex justify-center items-center relative w-[400px]'>
             {/* <img className='w-[400px] h-[170px]' src={GamePlayLogo} alt=''/> */}
             <img className='absolute left-0 mb-[30px]' src={blood} alt=''/>
-            <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>GAME PLAY</h1>
+            <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000] font-[RoadRage]'>GAME PLAY</h1>
            </h1>
           </div>
           
@@ -356,7 +356,7 @@ const Home = () => {
           <div className='z-[1000] flex flex-col items-center justify-center'>
             <h1 className='flex justify-center items-center relative w-[400px]'>
               {/* <img className='w-[400px] h-[170px] z-[100000]' src={LoadMap} alt=''/> */}
-              <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>ROADMAP</h1>
+              <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000] font-[RoadRage]'>ROADMAP</h1>
               <img className='absolute left-0 mb-[30px] z-[100]' src={blood} alt=''/>
             </h1>
             <div className='z-[1000] relative'>
@@ -364,8 +364,8 @@ const Home = () => {
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px] md:ml-[1px]'>
                      {/* <img className='z-[100000] h-[70px]' src={Text1} alt=''/> */}
                      {/* <img src={line} alt=''/> */}
-                     <h1 className='z-[100000] text-white w-full'>Q2 2022</h1>
-                     <ul className='text-white text-[13px] z-[100000]'>
+                     <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q2 2022</h1>
+                     <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Game concept Establishment</li>
                        <li className='cursor-pointer'>Pitch Deck</li>
                        <li className='cursor-pointer'>Detailed Documentation</li>
@@ -375,8 +375,8 @@ const Home = () => {
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px]'>
                      {/* <img className='z-[100000] h-[70px]' src={Text2} alt=''/> */}
                      {/* <img src={line} alt=''/> */}
-                     <h1 className='z-[100000] text-white w-full'>Q3 2022</h1>
-                     <ul className='text-white text-[13px] z-[100000]'>
+                     <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q3 2022</h1>
+                     <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Game Development outlined</li>
                        <li className='cursor-pointer'>Ecosystem Design</li>
                        <li className='cursor-pointer'>Character Metamorphosis</li>
@@ -386,8 +386,8 @@ const Home = () => {
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[50px] md:mb-[-100px]'>
                      {/* <img className='z-[100000] h-[70px]' src={Text3} alt=''/> */}
                      {/* <img src={line} alt=''/> */}
-                     <h1 className='z-[100000] text-white w-full'>Q4 2022</h1>
-                     <ul className='text-white text-[13px] z-[100000]'>
+                     <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q4 2022</h1>
+                     <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Full game production (Beta)</li>
                        <li className='cursor-pointer'>Team Expansion. 8 additional IT and marketing specialists</li>
                        <li className='cursor-pointer'>OG character reveal for base levels</li>
@@ -404,8 +404,8 @@ const Home = () => {
                 <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-100px]'>
                      {/* <img className='z-[100000] h-[70px]' src={Text4} alt=''/> */}
                      {/* <img src={line} alt=''/> */}
-                     <h1 className='z-[100000] text-white w-full'>Q1 2023</h1>
-                     <ul className='text-white text-[13px] z-[100000]'>
+                     <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q1 2023</h1>
+                     <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Website Development</li>
                        <li className='cursor-pointer'>On-chain migration</li>
                        <li className='cursor-pointer'>Smart contract development</li>
@@ -414,8 +414,8 @@ const Home = () => {
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-90px] md:mt-[-100px]'>
                      {/* <img className='z-[100000] h-[70px]' src={Text5} alt=''/> */}
                      {/* <img src={line} alt=''/> */}
-                     <h1 className='z-[100000] text-white w-full'>Q2 2023</h1>
-                     <ul className='text-white text-[13px] z-[100000]'>
+                     <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q2 2023</h1>
+                     <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Public Round GameFi.org & Seedify Launchpad</li>
                        <li className='cursor-pointer'>Internal Beta Launch to Public</li>
                        <li className='cursor-pointer'>User Dashboard Release</li>
@@ -426,8 +426,8 @@ const Home = () => {
                     <div>
                        {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
                        {/* <img src={line} alt=''/> */}
-                       <h1 className='z-[100000] text-white w-full'>Q3 2023</h1>
-                       <ul className='text-white text-[13px] z-[100000]'>
+                       <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q3 2023</h1>
+                       <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                          <li className='cursor-pointer'>Alpha Launch to Public</li>
                          <li className='cursor-pointer'>Slay-to-Earn Program Launch</li>
                          <li className='cursor-pointer'>Battle Arena Dashboard Live</li>
@@ -437,8 +437,8 @@ const Home = () => {
                     <div>
                        {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
                        {/* <img src={line} alt=''/> */}
-                        <h1 className='z-[100000] text-white w-full'>Q4 2023</h1>
-                        <ul className='text-white text-[13px] z-[100000]'>
+                        <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q4 2023</h1>
+                        <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                            <li className='cursor-pointer'>Grand Opening $100k Tournament</li>
                            <li className='cursor-pointer'>PVP Real Time challenging</li>
                            <li className='cursor-pointer'>player Avatar Integration</li>
@@ -452,7 +452,7 @@ const Home = () => {
         </div>
         <div className='w-full h-auto flex flex-col justify-center items-center' id='teams'>
           <h1 className='flex justify-center items-center z-[100000] relative w-[400px]'>
-             <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000]'>OUR TEAM</h1>
+             <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000] font-[RoadRage]'>OUR TEAM</h1>
               <img className='absolute left-0 mb-[30px] z-[100]' src={blood} alt=''/>
           </h1>
           <div className='flex flex-row flex-wrap gap-3 justify-center items-center'>
@@ -487,10 +487,10 @@ const Home = () => {
           </div>
           <div className='flex flex-col gap-5 justify-center items-center md:w-[530px] w-screen'>
             <h1 className='w-[550px] flex relative Z-[10000]'>
-              <h1 className='text-[45px] text-white mb-[20px] font-bold text-center'>FREQUENTLY ASKED QUESTIONS</h1>
+              <h1 className='text-[45px] text-white mb-[20px] font-bold text-center font-[RoadRage]'>FREQUENTLY ASKED QUESTIONS</h1>
               {/* <img className='absolute left-[-80px] bottom-[10px]' src={blood} alt=''/> */}
             </h1>
-            <form className='flex flex-col gap-[10px] text-white'>
+            <form className='flex flex-col gap-[10px] text-white font-[Montserrat]'>
               <div className='flex flex-row border-b justify-center items-center'>
                 <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>When is BloodBath launching?</div>
                 <AiOutlineDown className='cursor-pointer'/>
