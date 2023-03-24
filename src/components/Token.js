@@ -1,18 +1,12 @@
 import React from 'react'
-import BloodToken from '../assets/logos/$blood token.png'
 import coin from '../assets/Gifs/gif 1.gif'
 import status from '../assets/images/Stats.png'
 import image62  from '../assets/images/image62 2.png'
-import header from '../assets/logos/$blood token ecosystem & revenue.png'
 import bloodDash from '../assets/logos/Group (11).png'
 import newDash from '../assets/logos/Group (12).png'
 import zombie from '../assets/Gifs/Leather-face_pose3 1.gif'
-import heading from '../assets/logos/Heading.png'
 import meter from '../assets/images/Meter.png'
-import meterTitle from '../assets/logos/heading (1).png'
 import pig from '../assets/images/Group 234028.png'
-import pigHeader from '../assets/logos/Heading (2).png'
-import statsTile from '../assets/logos/Heading (3).png'
 import pieChart from '../assets/images/Rectangle 94 (2).png'
 import Group13333 from '../assets/images/Group (2).png'
 import footer from '../assets/logos/footer.PNG'
@@ -51,7 +45,6 @@ const Token = () => {
                   <h1 className='relative flex flex-row'>
                     <img className='md:w-[170px] w-[100px]' src={bloodDash} alt=''/>
                     <h1 className='text-[50px] font-bold text-white absolute md:left-[85px] left-[40px] top-[65px] font-[RoadRage]'>$BLOOD TOKEN <br/>ECOSYSTEM & REVENUE</h1>
-                    {/* <img className='md:w-[450px] w-[280px] md:h-[150px] h-[100px] absolute md:left-[70px] left-[40px] top-[50px]' src={header} alt=''/> */}
                   </h1>
                   <p className='md:ml-[70px] pl-[20px] text-white w-[70%] mt-[20px] font-[Montserrat]'>
                       The BloodBath ecosystem is designed as a self-sustaining, revenue-generating
@@ -75,7 +68,6 @@ const Token = () => {
             </div>
             <div className='md:w-[35%] w-[95%] flex flex-col relative'>
                 <h1 className='flex relative'>
-                    {/* <img src={heading} alt=''/> */}
                     <h1 className='text-[56px] text-white mb-[20px] ml-[60px] font-bold z-[1000] font-[RoadRage]'>SLAY TO EARN!</h1>
                     <img className='absolute left-[-40px] top-[-60px]' src={blood} alt=''/>
                 </h1>

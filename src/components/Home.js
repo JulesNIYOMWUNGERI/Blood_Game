@@ -1,6 +1,4 @@
 import React, { useState,useRef } from 'react';
-import image from '../assets/images/Background Image.jpg'
-import logo from '../assets/logos/Logo-1.png'
 import blood from '../assets/logos/Group (11).png'
 
 import image11111 from '../assets/images/003.png'
@@ -9,14 +7,10 @@ import PinHead from '../assets/Gifs/Pinhead_pose1 2.gif'
 import mike from '../assets/Gifs/mike-myers_pose1 2.gif'
 import Chucky from '../assets/Gifs/Chucky_Pose3 3.gif'
 import zombie from '../assets/Gifs/Leather-face_pose3 1.gif'
-import AboutLogo from '../assets/logos/About.png'
 import Pennywise from '../assets/Gifs/Pennywise_pose2 1.gif'
 import pennywise3 from '../assets/Gifs/Pennywise_pose1 2.gif'
-import Pennywise2 from '../assets/images/Pennywise.png'
 import rectangle from '../assets/images/001.png'
-import rectangle5 from '../assets/images/Rectangle 5 (1).png'
 import rectangle26 from '../assets/images/Rectangle 26.png'
-import HowToPlay from '../assets/logos/how to play.png'
 import image2 from '../assets/images/image.png'
 import Group1 from '../assets/images/Group (1).png'
 import GhostFace from '../assets/Gifs/Ghostface_Gif3 1.gif'
@@ -27,20 +21,16 @@ import {BsPlayFill,BsFillPlayFill,BsFillPauseFill} from 'react-icons/bs'
 
 import image2222 from '../assets/images/002.png'
 import jason from '../assets/Gifs/Jason_pose2 2.gif'
-import Token from '../assets/images/$blood TOKEN_ (2).png'
 
-import OurTeam from '../assets/logos/Our Team.png'
+
 import group1 from '../assets/images/Group 233962.png'
 import group2 from '../assets/images/Group 233963.png'
 import group3 from '../assets/images/Group 233964.png'
 import group4 from '../assets/images/Group 233965.png'
 import group5 from '../assets/images/Group 233966.png'
-import Logo2 from '../assets/logos/Group 233960.png'
 
-import Logo3333 from '../assets/logos/Game Characters.png'
+
 import Group13333 from '../assets/images/Group (2).png'
-import GamePlayLogo from '../assets/logos/game play.png'
-import LoadMap from '../assets/logos/game play (1).png'
 import image13333 from '../assets/images/image_2022_09_28T02_47_04_124Z.png'
 import image23333 from '../assets/images/image_2022_09_28T02_48_47_293Z.png'
 import image33333 from '../assets/images/image_2022_09_28T02_49_10_084Z.png'
@@ -55,7 +45,6 @@ import jvsc from '../assets/videos/jvsc.00002.mp4'
 const Home = () => {
   const [play, setPlay] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isVideoMuted, setIsVideoMuted] = useState(false);
   const videoRef = useRef(null);
 
 
@@ -74,21 +63,9 @@ const Home = () => {
             <div>
               <video className='w-[100%] object-[cover]' src={topVideo} loop muted autoplay="autoplay"/>
             </div>
-            {/* <div className='w-full h-screen relative top-0' id='home'>
-              <img src={image} alt="/" className='w-full h-full object-cover absolute mix-blend-overlay'/>
-              <div className='text-[30px] h-screen font-extrabold flex justify-center items-center pt-[170px] relative'>
-                  <div className='h-[360px] w-[300px]'>
-                    <img className='bg-[#00000000] h-full w-full' src={Pennywise2} alt=''/>
-                  </div>
-                  <div className='text-[30px] font-extrabold pt-[100px] absolute  z-[10000]'>
-                      <img className='w-[550px]' src={logo} alt=''/>
-                  </div>
-              </div>
-            </div> */}
             <div className='bg-black text-white w-full pt-[100px] h-auto relative flex justify-end flex-row flex-wrap' id='about'>
         <div className='bg-transparent lg:w-[49%] md:w-[49%] sm:w-[100%] w-[100%] flex flex-col pl-[0px]'>
           <div className='bg-transparent pl-[50px] pb-[20px] flex relative'>
-            {/* <img src={AboutLogo} alt=''/> */}
             <h1 className='text-[60px] font-bold z-[10000] font-[RoadRage]'>ABOUT</h1>
             <img className='absolute left-[-30px] top-[-70px]' src={blood} alt=''/>
           </div>
@@ -185,7 +162,6 @@ const Home = () => {
             <img className='absolute right-0 lg:w-[400px] h-[300px] md:w-[200px] mt-[70px] hidden md:block' src={GhostFace} alt=''/>
             <div className=' flex justify-center items-center flex-col lg:w-[50%] md:w-[70%] sm:w-full w-full absolute lg:mt-[50px] md:mt-[200px] sm:mt-[100px] mt-[10px]'>
                <div className='flex relative z-[1000]'>
-                 {/* <img src={HowToPlay} alt=''/> */}
                  <h1 className='text-[50px] font-[700] pb-[20px] z-[10000] font-[RoadRage]'>HOW TO PLAY</h1>
                  <img className='absolute left-[-90px] top-[-70px]' src={blood} alt=''/>
                </div>
@@ -201,21 +177,18 @@ const Home = () => {
                <div className='flex flex-col gap-5 justify-center lg:w-[450px] md:w-[450px] sm:w-[90%] w-[90%] h-[300px] md:h-[250px]'>
                  <div>
                    <h1  className='font-[RoadRage]'>
-                    {/* <img className='w-[150px]' src={Download} alt=''/> */}
                     <strong>1.Download</strong>
                   </h1>
                    <p className='font-[Montserrat]'>iOS and Windows compatible.</p>
                  </div>
                  <div>
                    <h1 className='font-[RoadRage]'>
-                    {/* <img className='w-[300px]' src={SelectAvatar} alt=''/> */}
                     <strong>2.Select seiral killer & Arena</strong>
                   </h1>
                    <p className='font-[Montserrat]'>Choose your villain and set your wager.</p>
                  </div>
                  <div>
                    <h1 className='font-[RoadRage]'>
-                    {/* <img className='w-[100px]' src={Play} alt=''/> */}
                     <strong>3.Play</strong>
                    </h1>
                    <p className='font-[Montserrat]'>Go head-to-head in bloody combat in a winner take all<br/> battle.</p>
@@ -233,7 +206,6 @@ const Home = () => {
             <div className='absolute w-full flex justify-center mt-[500px] lg:mt-[150px] items-center'>
                 <div className='lg:ml-[120px] w-[500px] mt-10 flex flex-col gap-2'>
                    <h1 className='ml-1'>
-                       {/* <img className='h-[50px]' src={Token} alt=''/> */}
                        <h1 className='text-[50px] font-bold font-[RoadRage]' >$BLOOD TOKEN</h1>
                    </h1>
                    <ul className='ml-4 list-disc font-[Montserrat]'>
@@ -257,7 +229,6 @@ const Home = () => {
        <div className='flex flex-col gap-[30px] py-[50px]'>
           <div className='flex flex-col justify-center items-center'>
             <div className='flex flex-row justify-center items-center relative'>
-              {/* <img className='w-[500px] lg:mr-[30px]' src={Logo3333} alt=''/> */}
               <h1 className='text-[45px] text-white mb-[10px] font-bold z-[1000] font-[RoadRage]'>GAME CHARACTERS</h1>
               <img className='absolute left-[-80px] top-[-70px]' src={blood} alt=''/>
             </div> 
@@ -314,7 +285,6 @@ const Home = () => {
         <div className='z-[1000000000000]'>
           <div className='flex justify-center items-center mb-5'>
            <h1 className='flex justify-center items-center relative w-[400px]'>
-            {/* <img className='w-[400px] h-[170px]' src={GamePlayLogo} alt=''/> */}
             <img className='absolute left-0 mb-[30px]' src={blood} alt=''/>
             <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000] font-[RoadRage]'>GAME PLAY</h1>
            </h1>
@@ -355,15 +325,12 @@ const Home = () => {
         <div className='w-full h-auto'>
           <div className='z-[1000] flex flex-col items-center justify-center'>
             <h1 className='flex justify-center items-center relative w-[400px]'>
-              {/* <img className='w-[400px] h-[170px] z-[100000]' src={LoadMap} alt=''/> */}
               <h1 className='text-[45px] text-white mb-[20px] font-bold z-[10000] font-[RoadRage]'>ROADMAP</h1>
               <img className='absolute left-0 mb-[30px] z-[100]' src={blood} alt=''/>
             </h1>
             <div className='z-[1000] relative'>
               <div className='flex flex-row flex-wrap justify-center gap-[200px] py-5'>
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px] md:ml-[1px]'>
-                     {/* <img className='z-[100000] h-[70px]' src={Text1} alt=''/> */}
-                     {/* <img src={line} alt=''/> */}
                      <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q2 2022</h1>
                      <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Game concept Establishment</li>
@@ -373,8 +340,6 @@ const Home = () => {
                      </ul>
                   </div>
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[-100px]'>
-                     {/* <img className='z-[100000] h-[70px]' src={Text2} alt=''/> */}
-                     {/* <img src={line} alt=''/> */}
                      <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q3 2022</h1>
                      <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Game Development outlined</li>
@@ -384,8 +349,6 @@ const Home = () => {
                      </ul>
                   </div>
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mb-[50px] md:mb-[-100px]'>
-                     {/* <img className='z-[100000] h-[70px]' src={Text3} alt=''/> */}
-                     {/* <img src={line} alt=''/> */}
                      <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q4 2022</h1>
                      <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Full game production (Beta)</li>
@@ -393,17 +356,7 @@ const Home = () => {
                        <li className='cursor-pointer'>OG character reveal for base levels</li>
                      </ul>
                   </div>
-                {/* <div className='z-[1000000] md:flex flex-row gap-0 h-[30px] my-[40px] md:ml-[120px] hidden '>
-                    <div className='text-red-900 flex justify-center items-center'><img src={icon} alt='' />------------</div>
-                    <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
-                    <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
-                    <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
-                    <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' />---------</div>
-                    <div className='text-red-900 flex justify-center items-center'>---------<img src={icon} alt='' /></div>
-                </div> */}
                 <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-100px]'>
-                     {/* <img className='z-[100000] h-[70px]' src={Text4} alt=''/> */}
-                     {/* <img src={line} alt=''/> */}
                      <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q1 2023</h1>
                      <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Website Development</li>
@@ -412,8 +365,6 @@ const Home = () => {
                      </ul>
                   </div>
                   <div className='flex flex-col gap-[1px] justify-center items-center  z-[100000] mt-[-90px] md:mt-[-100px]'>
-                     {/* <img className='z-[100000] h-[70px]' src={Text5} alt=''/> */}
-                     {/* <img src={line} alt=''/> */}
                      <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q2 2023</h1>
                      <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                        <li className='cursor-pointer'>Public Round GameFi.org & Seedify Launchpad</li>
@@ -424,8 +375,6 @@ const Home = () => {
                   </div>
                   <div className='flex flex-col gap-[10px] justify-center items-center  z-[100000] mt-[-100px] md:mr-[100px]'>
                     <div>
-                       {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
-                       {/* <img src={line} alt=''/> */}
                        <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q3 2023</h1>
                        <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                          <li className='cursor-pointer'>Alpha Launch to Public</li>
@@ -435,8 +384,6 @@ const Home = () => {
                        </ul>
                     </div>
                     <div>
-                       {/* <img className='z-[100000] h-[70px]' src={Text6} alt=''/> */}
-                       {/* <img src={line} alt=''/> */}
                         <h1 className='z-[100000] text-white w-full font-[RoadRage]'>Q4 2023</h1>
                         <ul className='text-white text-[13px] z-[100000] font-[Montserrat]'>
                            <li className='cursor-pointer'>Grand Opening $100k Tournament</li>
@@ -486,9 +433,8 @@ const Home = () => {
             <img className='w-[400px] h-[300px]' src={freddy} alt=''/>
           </div>
           <div className='flex flex-col gap-5 justify-center items-center md:w-[530px] w-screen'>
-            <h1 className='w-[550px] flex relative Z-[10000]'>
-              <h1 className='text-[45px] text-white mb-[20px] font-bold text-center font-[RoadRage]'>FREQUENTLY ASKED QUESTIONS</h1>
-              {/* <img className='absolute left-[-80px] bottom-[10px]' src={blood} alt=''/> */}
+            <h1 className='w-[350px] md:w-[550px] flex relative Z-[10000] bg-red-200'>
+              <h1 className='text-[35px] md:text-[45px] text-white mb-[20px] font-bold text-center font-[RoadRage]'>FREQUENTLY ASKED QUESTIONS</h1>
             </h1>
             <form className='flex flex-col gap-[10px] text-white font-[Montserrat]'>
               <div className='flex flex-row border-b justify-center items-center'>
@@ -507,14 +453,6 @@ const Home = () => {
                 <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>How do tournments work?</div>
                 <AiOutlineDown className='cursor-pointer'/>
               </div>
-              {/* <div className='flex flex-row border-b justify-center items-center'>  
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Where Can I buy ZION?</div>
-                <AiOutlineDown className='cursor-pointer'/>
-              </div>
-              <div className='flex flex-row border-b justify-center items-center'>  
-                <div className='bg-transparent border-none outline-none md:w-[500px] w-[90%] p-[10px]'>Why Polygan?</div>
-                <AiOutlineDown className='cursor-pointer'/>
-              </div> */}
             </form>
           </div>
           <div className='flex justify-end h-[600px] pt-[290px]'>
